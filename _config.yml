@@ -122,10 +122,8 @@ author:
   bio              : "창업 7년과 Enterprise AI 실무를 연결합니다. 현업 Pain Point를 AX 과제로 정의하고 PoC → MVP → 운영까지 만듭니다."
   location         : "Seoul, Korea"
   email            :
+  email_text       : "zerotoanother@gmail.com"  # 링크 없이 텍스트로만 표시
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:zerotoanother@gmail.com"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://youtube.com/@zerotoanother"

@@ -1,7 +1,5 @@
-<!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
+{% if author.email_text %}
+  <li class="author__email-text">
+    <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ author.email_text }}</span>
   </li>
--->
+{% endif %}

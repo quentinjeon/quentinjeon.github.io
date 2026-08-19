@@ -97,3 +97,12 @@ $type-size-6: 0.8em;
   font-style: normal;
   color: mix($text-color, $background-color, 60%);
 }
+
+/* ── 사이드바 이메일: 링크 없이 텍스트로 표시 ─────────── */
+.author__urls .author__email-text {
+  color: $text-color;
+
+  .label {
+    word-break: break-all;
+  }
+}
