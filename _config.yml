@@ -17,13 +17,13 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Quentin, interested in Robotics, Automation, AI"
+title                    : "전용섭 Yongsub Jeon"
 title_separator          : "-"
 future                   : true
 published                : true
-subtitle                 : "Robotics · Automation · AI Agent" # site tagline that appears below site title in masthead
+subtitle                 : "Enterprise AX · GenAI Product · Automation" # site tagline that appears below site title in masthead
 name                     : "Quentin Jeon"
-description              : "로보틱스·자동화·AI 에이전트 시스템을 설계하고 기록합니다."
+description              : "현업의 Pain Point를 AX 과제로 정의하고 PoC에서 운영까지 만듭니다. 기업 AI 시스템 설계와 자동화 기록."
 url                      : "https://quentinjeon.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "quentinjeon/quentinjeon.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -117,18 +117,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Quentin Jeon"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "푸드테크 스타트업 6년, 이후 로보틱스·자동화 전문가. 기업 AI 시스템을 설계합니다."
-  location         : "Seongnam, Korea"
+  name             : "전용섭 Yongsub Jeon"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "창업 7년과 Enterprise AI 실무를 연결합니다. 현업 Pain Point를 AX 과제로 정의하고 PoC → MVP → 운영까지 만듭니다."
+  location         : "Seoul, Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:zerotoanother@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "mailto:amilkyhouse@gmail.com"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/@zerotoanother"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -154,6 +154,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/quentinjeon"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/@zerotoanother"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
