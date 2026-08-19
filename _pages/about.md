@@ -114,6 +114,6 @@ AI 도입이 필요하시면 언제든지 연락주세요.
 
 ## 연락
 
-- Email: [amilkyhouse@gmail.com](mailto:amilkyhouse@gmail.com)
+- Email: [zerotoanother@gmail.com](mailto:zerotoanother@gmail.com)
 - GitHub: [@quentinjeon](https://github.com/quentinjeon)
 - YouTube: [@zerotoanother](https://youtube.com/@zerotoanother)
