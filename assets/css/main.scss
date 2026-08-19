@@ -5,5 +5,95 @@ search: false
 
 @charset "utf-8";
 
+/* ── 한글 웹폰트 (Pretendard) ───────────────────────────── */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css");
+
+/* ── 타이포그래피 오버라이드 (skin 이전에 선언) ─────────── */
+$pretendard: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
+  "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+
+$global-font-family: $pretendard;
+$header-font-family: $pretendard;
+$caption-font-family: $pretendard;
+$monospace: "JetBrains Mono", "SFMono-Regular", Menlo, Consolas,
+  "D2Coding", monospace;
+
+$doc-font-size: 17px;
+$type-size-6: 0.8em;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* ── 본문 가독성 ─────────────────────────────────────── */
+.page__content {
+  p, li {
+    line-height: 1.85;
+    letter-spacing: -0.01em;
+    word-break: keep-all;   /* 한글 단어 단위 줄바꿈 */
+  }
+
+  h2 {
+    margin-top: 2.4em;
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid $border-color;
+  }
+
+  h3 {
+    margin-top: 1.8em;
+  }
+
+  /* 인용구: 왼쪽 강조 바 */
+  blockquote {
+    margin: 1.6em 0;
+    padding: 0.2em 0 0.2em 1.2em;
+    border-left: 4px solid mix($link-color, $background-color, 55%);
+    color: mix($text-color, $background-color, 85%);
+    font-style: normal;
+  }
+
+  /* 다이어그램 이미지: 카드 형태로 */
+  img {
+    border-radius: 6px;
+  }
+
+  figure img,
+  p > img {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08),
+                0 6px 20px rgba(0, 0, 0, 0.06);
+    margin: 1.8em auto;
+  }
+
+  /* 코드블록 */
+  pre {
+    line-height: 1.55;
+  }
+
+  code {
+    letter-spacing: 0;
+  }
+}
+
+/* ── 목록 카드 사이 여백 ─────────────────────────────── */
+.archive__item {
+  margin-bottom: 1.4em;
+}
+
+.archive__item-title {
+  margin-top: 0.6em;
+  font-weight: 700;
+}
+
+/* ── 상단 헤더 ───────────────────────────────────────── */
+.masthead {
+  border-bottom: 1px solid $border-color;
+}
+
+.site-title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.site-subtitle {
+  font-style: normal;
+  color: mix($text-color, $background-color, 60%);
+}

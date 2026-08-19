@@ -12,27 +12,27 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Quentin, interested in Robotics, Automation, AI"
 title_separator          : "-"
 future                   : true
 published                : true
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Robotics · Automation · AI Agent" # site tagline that appears below site title in masthead
 name                     : "Quentin Jeon"
-description              : "Robotics & Automation."
+description              : "로보틱스·자동화·AI 에이전트 시스템을 설계하고 기록합니다."
 url                      : "https://quentinjeon.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "quentinjeon/quentinjeon.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
+enable_copy_code_button  : true # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 category_dir: category/
@@ -72,9 +72,9 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
 algolia:
@@ -119,13 +119,13 @@ analytics:
 author:
   name             : "Quentin Jeon"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Startup in Foodtech 6 years, after then become Robotics & Automation Expert."
-  location         : "wirye seng nam si, Korea"
+  bio              : "푸드테크 스타트업 6년, 이후 로보틱스·자동화 전문가. 기업 AI 시스템을 설계합니다."
+  location         : "Seongnam, Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:zerotoanother@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -137,7 +137,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/quentinjeon"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -153,7 +153,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/quentinjeon"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -170,6 +170,15 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - docs
+  - test
+  - README.md
+  - CHANGELOG.md
+  - screenshot.png
+  - screenshot-layouts.png
+  - Rakefile
+  - staticman.yml
+  - minimal-mistakes-jekyll.gemspec
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
