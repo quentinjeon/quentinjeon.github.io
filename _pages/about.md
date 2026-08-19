@@ -10,7 +10,7 @@ toc_sticky: true
 
 ## 전용섭 Yongsub Jeon
 
-**Enterprise AX Strategy | GenAI Product & Consulting**
+**Enterprise AX Strategy · GenAI Product & Consulting**
 
 Strategy · Business · GenAI · PoC · Delivery · Change Management
 
