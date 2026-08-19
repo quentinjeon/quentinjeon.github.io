@@ -111,7 +111,8 @@ AI 작업자의 역할, 기억, 업무, 자료, 결과물을 보관하는 작업
 
 내가 이 구조에 붙인 이름은 Vibe Agent Workspace다.
 
-![Vibe Agent Workspace 전체 구조](/assets/images/vibe-agent-00-overview.png)
+[![Vibe Agent Workspace 전체 구조](/assets/images/vibe-agent-00-overview.png)](/assets/images/vibe-agent-00-overview.png)
+*Vibe Agent Workspace 전체 구조 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 한 문장으로 정의하면 다음과 같다.
 
@@ -305,7 +306,8 @@ Software 안에서 일하는 AI 작업자까지 설계하게 된다.
 
 ## 폴더 하나를 AI 작업자 하나로 본다
 
-![Agent Workspace 폴더 구조](/assets/images/vibe-agent-01-workspace.png)
+[![Agent Workspace 폴더 구조](/assets/images/vibe-agent-01-workspace.png)](/assets/images/vibe-agent-01-workspace.png)
+*Agent Workspace 폴더 구조 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 예를 들어 Planner Agent를 만든다고 해보자.
 
@@ -415,7 +417,8 @@ Multi-Agent라는 말을 들으면 흔히 AI들이 서로 대화하는 모습을
 
 > **Agent 간 Chat보다 Artifact Handoff가 중요하다.**
 
-![Task · Artifact · Handoff 구조](/assets/images/vibe-agent-03-handoff.png)
+[![Task · Artifact · Handoff 구조](/assets/images/vibe-agent-03-handoff.png)](/assets/images/vibe-agent-03-handoff.png)
+*Task · Artifact · Handoff 구조 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 예를 들어:
 
@@ -662,7 +665,8 @@ Missing Field Agent는
 
 ## Context를 역할별로 분리하는 것이 핵심이다
 
-![Context · Knowledge · Memory 구조](/assets/images/vibe-agent-04-context.png)
+[![Context · Knowledge · Memory 구조](/assets/images/vibe-agent-04-context.png)](/assets/images/vibe-agent-04-context.png)
+*Context · Knowledge · Memory 구조 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 또 하나 중요한 개념이 있다.
 
@@ -745,7 +749,8 @@ Agent가 이전 작업에서 실패했던 이유
 
 ## 그래서 Orchestrator가 필요하다
 
-![Orchestrator · Agent Routing](/assets/images/vibe-agent-02-orchestrator.png)
+[![Orchestrator · Agent Routing](/assets/images/vibe-agent-02-orchestrator.png)](/assets/images/vibe-agent-02-orchestrator.png)
+*Orchestrator · Agent Routing — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 Agent가 여러 개 생기면 새로운 문제가 발생한다.
 
@@ -809,7 +814,8 @@ Requirement
 
 ## 모든 일을 자동으로 맡겨서는 안 된다
 
-![Human Approval · Permission · Observability](/assets/images/vibe-agent-05-governance.png)
+[![Human Approval · Permission · Observability](/assets/images/vibe-agent-05-governance.png)](/assets/images/vibe-agent-05-governance.png)
+*Human Approval · Permission · Observability — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 Agent라는 개념이 나오면 쉽게
 
