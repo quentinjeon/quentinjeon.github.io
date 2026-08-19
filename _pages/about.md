@@ -39,7 +39,7 @@ Strategy · Business · GenAI · PoC · Delivery · Change Management
 
 ## 경력
 
-총 8년.
+총 재직 8년 8개월 (AI 1년 8개월 · 창업 7년 1개월).
 
 ### (주)도슨티 — Director / Business AI Engineering
 
@@ -55,7 +55,7 @@ Strategy · Business · GenAI · PoC · Delivery · Change Management
 
 ### 아밀키 (Amilky) — Founder & CEO
 
-**Food-Tech / Product / Operations · 2017.10 ~ 2024.11 (7년 2개월)**
+**Food-Tech / Product / Operations · 2017.10.28 ~ 2024.11.30 (7년 1개월)**
 
 - 순식물성 식품·Tech 스타트업을 7년간 창업·운영하며 제품 기획 → 개발 → 제조 → 유통 → 고객 대응을 E2E로 수행
 - 마켓컬리, 로켓프레시, 카카오선물하기 등 주요 채널에 제품을 공급하고 대형·온라인 유통사 B2B 운영 체계를 구축
@@ -66,7 +66,7 @@ Strategy · Business · GenAI · PoC · Delivery · Change Management
 
 ### 씨엔티테크(주) — Service Planning Intern
 
-**2017.01 ~ 2017.08 (8개월)**
+**2017.01.02 ~ 2017.08.01 (7개월)**
 
 - 카카오 주문하기 정산 페이지를 기획·운영하고 정산 프로세스 자동화 협업에 참여 (데이터 처리·운영 효율화)
 - 미스터피자·버거킹·피자헛 등 대형 프랜차이즈 프로모션 기획 참여
@@ -76,7 +76,7 @@ Strategy · Business · GenAI · PoC · Delivery · Change Management
 
 ### 서울대학교 공학전문대학원
 
-**응용공학과 산업AI 트랙, 석사 재학 · 2026 ~**
+**응용공학과 산업AI 트랙, 석사 재학 · 2026.03 ~** · 언어 및 데이터지능 연구실
 
 AI/DX 워크플로우를 연구하고 있습니다.
 
@@ -87,14 +87,16 @@ AI/DX 워크플로우를 연구하고 있습니다.
 
 ### 동국대학교
 
-**식품생명공학 · 융합소프트웨어 복수전공 · 2014 ~ 2016**
+**식품생명공학 · 융합소프트웨어(연계전공) · 2014.03 ~ 2016.08**
+
+식품생명공학 3.27 / 융합소프트웨어 3.82 (4.5 만점)
 
 ## 스킬
 
 - **AI / Automation** — LLM, RAG, OpenAI, n8n, Make, Webhook, CRM/Email/DB 연동
 - **Product / Delivery** — PRD, Jira, Confluence, Slack, Lean Canvas, HTML/CSS/JS
 - **전문 분야** — IT기획, 제품기획, 신규서비스, 기능기획, 웹기획, PM
-- **외국어** — 영어 (업무상 소통 가능)
+- **외국어** — 영어 (TOEIC 765, 2025.08)
 
 ## 수상
 

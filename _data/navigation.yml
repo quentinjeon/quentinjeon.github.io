@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "Posts"
+  - title: "프로젝트"
+    url: /work/
+  - title: "설계 원칙"
+    url: /principles/
+  - title: "글"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
   - title: "About"
     url: /about/
