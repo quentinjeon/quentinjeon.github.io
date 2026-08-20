@@ -1,0 +1,23 @@
+{% assign p = include.post %}
+{% assign dname = "" %}
+{% for d in site.data.domains.ax %}
+  {% if p.categories contains d.slug %}{% assign dname = d.name %}{% assign dicon = d.icon %}{% endif %}
+{% endfor %}
+<article class="postrow">
+  <a class="postrow__link" href="{{ p.url }}">
+    <div class="postrow__body">
+      <p class="postrow__meta">
+        {% if dname != "" %}<span class="card__domain">{{ dicon }} {{ dname }}</span>{% endif %}
+        <span>{{ p.date | date: "%Y년 %-m월 %-d일" }}</span>
+      </p>
+      <h3 class="postrow__title">{{ p.title }}</h3>
+      <p class="postrow__desc">{{ p.excerpt | markdownify | strip_html | strip | truncate: 110 }}</p>
+      {% if p.tags.size > 0 %}
+      <p class="postrow__tags">{% for t in p.tags limit:4 %}<span>#{{ t | remove: " " }}</span>{% endfor %}</p>
+      {% endif %}
+    </div>
+    {% if p.header.teaser %}
+    <div class="postrow__thumb"><img src="{{ p.header.teaser }}" alt="" loading="lazy"></div>
+    {% endif %}
+  </a>
+</article>

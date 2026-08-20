@@ -13,33 +13,17 @@ AX는 도메인마다 다르게 생겼습니다.
 
 [프로젝트에서 실제 구현 보기 →](/work/){: .btn .btn--inverse}
 
----
-
 {% for d in site.data.domains.ax %}
 {% assign posts = site.categories[d.slug] %}
-## {{ d.icon }} {{ d.name }}
+## {{ d.icon }} {{ d.name }} <span style="font-size:.6em;font-weight:400;color:#8b939c">{{ posts.size | default: 0 }}편</span>
 
-{{ d.tagline }}
+<p style="color:#6b7280;font-size:.9em;margin:-.4em 0 1em">{{ d.tagline }}</p>
 
-{% if posts and posts.size > 0 %}<p><strong>{{ posts.size }}편</strong></p>
+{% for post in posts %}{% include post-row.html post=post %}{% endfor %}
 
-{% for post in posts %}
-### [{{ post.title }}]({{ post.url }})
-
-<p style="color:#79808a;font-size:.85em;margin:-.6em 0 .6em">{{ post.date | date: "%Y년 %m월 %d일" }}{% if post.tags.size > 0 %} · {% for t in post.tags limit:4 %}{{ t }}{% unless forloop.last %} · {% endunless %}{% endfor %}{% endif %}</p>
-
-{{ post.excerpt | markdownify | strip_html | truncate: 180 }}
-
-[읽기 →]({{ post.url }}){: .btn .btn--primary .btn--small}
-
+<p style="margin:.9em 0 2em"><a href="/ax/{{ d.slug }}/" class="btn btn--inverse btn--small">{{ d.name }} 글 전체 보기 →</a></p>
 {% endfor %}
-{% endif %}
 
 ---
-{% endfor %}
 
-## 전체 글
-
-도메인으로 나누기 전의 글과 초기 하드웨어 기록까지 포함한 전체 목록입니다.
-
-[전체 글 보기 →](/posts/){: .btn .btn--inverse} [태그로 찾기 →](/tags/){: .btn .btn--inverse}
+초기 하드웨어 기록을 포함한 전체 목록은 [전체 글](/posts/)에서 볼 수 있습니다. [태그로 찾기 →](/tags/)

@@ -1,0 +1,79 @@
+# Scholar Labs 리딩 리스트 — 전부 외부 논문(제3자 저작물)이다.
+# 여기에는 내가 만든 것을 절대 넣지 않는다. 내 산출물은 labs.md 의 Original 섹션에.
+# link 는 Semantic Scholar 제목 검색으로 건다 — arXiv ID 오기입으로 엉뚱한 논문을
+# 가리키는 사고를 원천 차단하기 위함.
+- track: "에이전트 — 계획·도구사용·자기수정"
+  why: "agent-wallet 의 7단계 trace 와 self-review 를 이론적으로 다시 세우기 위해."
+  papers:
+    - title: "ReAct: Synergizing Reasoning and Acting in Language Models"
+      authors: "Yao et al."
+      year: 2022
+      note: "추론과 행동을 번갈아 내보내는 기본형. 내 tick 루프의 원형."
+    - title: "Reflexion: Language Agents with Verbal Reinforcement Learning"
+      authors: "Shinn et al."
+      year: 2023
+      note: "실패를 언어로 되먹임. self-review 5체크 + retry 설계의 근거."
+    - title: "Toolformer: Language Models Can Teach Themselves to Use Tools"
+      authors: "Schick et al."
+      year: 2023
+      note: "도구 호출을 언제 할지 모델이 정하는 문제."
+    - title: "Generative Agents: Interactive Simulacra of Human Behavior"
+      authors: "Park et al."
+      year: 2023
+      note: "기억 회상·반영 구조. LanceDB few-shot 메모리와 비교할 것."
+
+- track: "RAG — 검색 품질과 근거 제시"
+  why: "건설사 지식허브에서 '왜 이 답변을 했는지'를 보이려면 검색 단계가 먼저다."
+  papers:
+    - title: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+      authors: "Lewis et al."
+      year: 2020
+      note: "RAG 의 출발점."
+    - title: "Dense Passage Retrieval for Open-Domain Question Answering"
+      authors: "Karpukhin et al."
+      year: 2020
+      note: "밀집 검색의 기준선. 키워드 검색과 언제 섞을지."
+    - title: "Precise Zero-Shot Dense Retrieval without Relevance Labels"
+      authors: "Gao et al."
+      year: 2022
+      note: "HyDE. 레이블 없는 사내 문서에 바로 쓸 수 있는지 확인용."
+    - title: "Lost in the Middle: How Language Models Use Long Contexts"
+      authors: "Liu et al."
+      year: 2023
+      note: "긴 컨텍스트에서 중간이 버려지는 문제. 근거 문서 배치 순서에 직결."
+    - title: "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection"
+      authors: "Asai et al."
+      year: 2023
+      note: "검색 여부 자체를 모델이 판단. open-my-chatbot L4 분기와 대조."
+    - title: "From Local to Global: A Graph RAG Approach to Query-Focused Summarization"
+      authors: "Edge et al."
+      year: 2024
+      note: "내 GraphRAG 워크플로우와 접근이 어떻게 다른지 확인."
+
+- track: "평가 — 무엇을 정확도라 부를 것인가"
+  why: "'답변이 좋아 보인다'로 PoC 를 넘기지 않기 위해. Use Case 별 KPI 의 근거."
+  papers:
+    - title: "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena"
+      authors: "Zheng et al."
+      year: 2023
+      note: "LLM 심판의 편향과 한계. 자동 평가를 어디까지 믿을지."
+    - title: "RAGAS: Automated Evaluation of Retrieval Augmented Generation"
+      authors: "Es et al."
+      year: 2023
+      note: "faithfulness / answer relevance 지표 정의."
+    - title: "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+      authors: "Wei et al."
+      year: 2022
+      note: "추론 유도의 기본. 판정을 LLM 에 맡기지 않는 내 원칙과 충돌 지점 검토."
+    - title: "Self-Consistency Improves Chain of Thought Reasoning in Language Models"
+      authors: "Wang et al."
+      year: 2022
+      note: "샘플 다수결. 규칙엔진 판정과 비용 비교."
+
+- track: "안전·거버넌스"
+  why: "자율 에이전트에 kill-switch 를 먼저 붙인 이유를 문헌으로 보강."
+  papers:
+    - title: "Constitutional AI: Harmlessness from AI Feedback"
+      authors: "Bai et al."
+      year: 2022
+      note: "규칙을 명문화해 모델 행동을 제약하는 방식."

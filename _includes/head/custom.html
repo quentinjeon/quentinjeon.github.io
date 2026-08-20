@@ -1,5 +1,77 @@
 <!-- start custom head snippets -->
+<style>
+/* ── 카드 그리드: 대표이미지 → 도메인·태그 → 제목 ───────────────── */
+.cardgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.4em;margin:1.5em 0 2.5em}
+.card{display:flex;flex-direction:column;border:1px solid #e6e8eb;border-radius:8px;overflow:hidden;
+      background:#fff;transition:transform .16s ease,box-shadow .16s ease}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(0,0,0,.10)}
+.card__link{display:flex;flex-direction:column;height:100%;text-decoration:none!important;color:inherit}
+.card__media{aspect-ratio:16/9;overflow:hidden;background:#0f1c2e;position:relative}
+.card__media img{width:100%;height:100%;object-fit:cover;display:block;margin:0}
+/* 이미지 없는 프로젝트: 스크린샷을 지어내지 않고 타이포 커버로 대체 */
+.card__media--text{display:flex;align-items:center;justify-content:center;padding:1.1em;
+      background:linear-gradient(135deg,#16243b 0%,#284066 100%)}
+.card__media--text span{color:#fff;font-weight:700;font-size:1.05em;line-height:1.45;text-align:center;
+      word-break:keep-all;opacity:.95}
+.card__body{padding:.9em 1em 1.1em;display:flex;flex-direction:column;gap:.5em;flex:1}
+.card__meta{display:flex;flex-wrap:wrap;gap:.34em;align-items:center}
+.card__domain{font-size:.72em;font-weight:700;letter-spacing:.02em;padding:.2em .6em;border-radius:99px;
+      background:#e8f0fe;color:#1a4b8c;white-space:nowrap}
+.card__tag{font-size:.72em;color:#6b7280;background:#f3f4f6;padding:.2em .55em;border-radius:99px;white-space:nowrap}
+.card__title{font-size:1.03em;font-weight:700;line-height:1.4;margin:0;word-break:keep-all}
+.card:hover .card__title{color:#1a4b8c}
+.card__desc{font-size:.85em;color:#5b6470;line-height:1.55;margin:0;word-break:keep-all}
+.card__foot{margin-top:auto;padding-top:.5em;font-size:.75em;color:#8b939c}
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
+/* ── Scholar Labs: 내 산출물 vs 외부 자료 구분 배지 ──────────────── */
+.badge{display:inline-block;font-size:.7em;font-weight:700;padding:.22em .62em;border-radius:99px;
+      letter-spacing:.02em;white-space:nowrap;vertical-align:middle}
+.badge--original{background:#e7f6ec;color:#1a7f3c;border:1px solid #bfe6cd}
+.badge--external{background:#f4f4f5;color:#5b6470;border:1px solid #e0e2e5}
+.readitem{border-left:3px solid #e0e2e5;padding:.15em 0 .15em 1em;margin:0 0 1.35em}
+.readitem__title{font-weight:700;line-height:1.45;word-break:keep-all}
+.readitem__authors{font-size:.83em;color:#6b7280;margin:.2em 0 .35em}
+.readitem__why{font-size:.87em;color:#4b5563;line-height:1.6;word-break:keep-all}
 
+@media (prefers-color-scheme:dark){
+  .card{background:#1b1f24;border-color:#2c3238}
+  .card__domain{background:#1e355c;color:#a8c7f0}
+  .card__tag{background:#262b31;color:#9aa3ad}
+  .card__desc{color:#9aa3ad}
+  .badge--original{background:#16301f;color:#6ede96;border-color:#245536}
+  .badge--external{background:#24282d;color:#9aa3ad;border-color:#333940}
+  .readitem{border-left-color:#333940}
+  .readitem__why{color:#aeb6bf}
+}
+
+/* ── Medium식 포스트 행: 제목·부제 왼쪽, 썸네일 오른쪽. 소셜 지표 없이 해시태그 ── */
+.postrow{border-bottom:1px solid #ececee;padding:1.15em 0}
+.postrow:last-of-type{border-bottom:none}
+.postrow__link{display:flex;gap:1.4em;align-items:flex-start;text-decoration:none!important;color:inherit}
+.postrow__body{flex:1;min-width:0}
+.postrow__meta{display:flex;flex-wrap:wrap;gap:.45em;align-items:center;
+      font-size:.76em;color:#8b939c;margin:0 0 .4em}
+.postrow__title{font-size:1.24em;font-weight:800;line-height:1.35;margin:0 0 .28em;
+      word-break:keep-all;color:#1b1f24}
+.postrow__link:hover .postrow__title{color:#1a4b8c}
+.postrow__desc{font-size:.9em;color:#6b7280;line-height:1.5;margin:0 0 .5em;word-break:keep-all}
+.postrow__tags{display:flex;flex-wrap:wrap;gap:.4em;margin:0}
+.postrow__tags span{font-size:.74em;color:#5b6470;background:#f3f4f6;
+      padding:.2em .6em;border-radius:99px;white-space:nowrap}
+.postrow__thumb{flex:0 0 172px;aspect-ratio:3/2;border-radius:4px;overflow:hidden;background:#eceef1}
+.postrow__thumb img{width:100%;height:100%;object-fit:cover;display:block;margin:0}
+@media (max-width:600px){
+  .postrow__link{gap:.9em}
+  .postrow__thumb{flex-basis:96px}
+  .postrow__title{font-size:1.05em}
+  .postrow__desc{display:none}
+}
+@media (prefers-color-scheme:dark){
+  .postrow{border-bottom-color:#2c3238}
+  .postrow__title{color:#e6e8eb}
+  .postrow__desc{color:#9aa3ad}
+  .postrow__tags span{background:#262b31;color:#9aa3ad}
+  .postrow__thumb{background:#22262b}
+}
+</style>
 <!-- end custom head snippets -->

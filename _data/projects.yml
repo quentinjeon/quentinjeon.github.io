@@ -1,0 +1,66 @@
+# 프로젝트 카드.
+# image 를 비우면 타이포 커버(card__media--text)로 렌더된다 —
+# 없는 스크린샷을 지어내지 않기 위한 의도적 폴백.
+# domain 값은 _data/domains.yml 의 work slug 와 일치시킬 것.
+- title: "HACCP FLOW"
+  subtitle: "식품 제조 기록 시스템"
+  domain: food
+  tags: ["규칙엔진", "LLM 라우팅", "감사이력"]
+  image: /assets/images/cards/haccp.jpg
+  url: /work/haccp-flow/
+  desc: "생산 1회마다 서류 11종, 빈칸 하나가 인증취소. 어느 칸이 왜 비었는지를 시스템이 항상 알고 있게 만들었습니다."
+  foot: "LLM 토큰 -70% · 응답 -61%"
+
+- title: "온라인몰 수익률 관리 시스템"
+  subtitle: "채널별 기여이익 산출"
+  domain: commerce
+  tags: ["손익엔진", "상품명 매핑", "엑셀 파이프라인"]
+  image: /assets/images/cards/margin.jpg
+  url: /work/margin-system/
+  desc: "총매출은 다들 압니다. 이익을 모릅니다. 수수료·원가·물류비를 반영해 팔수록 손해인 제품을 드러냅니다."
+  foot: "매핑률 99.9% · 테스트 65건"
+
+- title: "open-my-chatbot"
+  subtitle: "커머스 CS 상담 챗봇"
+  domain: commerce
+  tags: ["LangGraph", "근거 기반 응답", "에스컬레이션"]
+  image:
+  url: /work/open-my-chatbot/
+  desc: "조회된 데이터 없이는 답변을 생성하지 않습니다. 상담 챗봇의 실패는 모른다가 아니라 모르면서 지어낸다는 것."
+  foot: "L1~L9 + L8.5 상태 그래프"
+
+- title: "agent-wallet"
+  subtitle: "자율 사고·글쓰기 에이전트"
+  domain: finance
+  tags: ["7단계 trace", "가드레일", "LanceDB"]
+  image:
+  url: /work/agent-wallet/
+  desc: "LLM이 글을 쓰는 건 쉽습니다. 자율로 돌리면서 사고를 안 내는 게 어렵습니다."
+  foot: "테스트 96건 · kill-switch 자동화"
+
+- title: "OpenClaw"
+  subtitle: "멀티에이전트 자동매매"
+  domain: finance
+  tags: ["에이전트 파이프라인", "리스크 게이트", "WebSocket"]
+  image: /assets/images/cards/openclaw.jpg
+  url: /work/openclaw/
+  desc: "자동매매 봇은 왜 그 주문을 냈는지 설명하지 못합니다. 5개 에이전트로 판단 근거를 단계마다 남겼습니다."
+  foot: "MarketAnalyzer → … → Portfolio"
+
+- title: "훈민 AI"
+  subtitle: "군 문서 작성 지원"
+  domain: public
+  tags: ["규정 검증", "HWP WASM", "실시간 협업"]
+  image:
+  url: /work/hunmin-ai/
+  desc: "군 문서는 내용보다 형식 규정 위반으로 반려됩니다. 그리고 그 규정은 사람 머릿속에 있습니다."
+  foot: "준수율 점수 0~100"
+
+- title: "GraphRAG 워크플로우"
+  subtitle: "벡터 + 그래프 질의응답"
+  domain: foundation
+  tags: ["Weaviate", "Neo4j", "Airflow"]
+  image:
+  url: /work/graphrag/
+  desc: "순수 벡터 RAG는 관련 문서는 찾지만 개념 간 관계는 못 찾습니다. 두 검색을 합치고 소스를 구분해 반환합니다."
+  foot: "6단계 Airflow DAG"

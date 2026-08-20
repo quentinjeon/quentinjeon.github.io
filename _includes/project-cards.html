@@ -1,0 +1,24 @@
+{% assign items = include.items %}
+<div class="cardgrid">
+{% for p in items %}
+  <article class="card">
+    <a class="card__link" href="{{ p.url }}">
+      <div class="card__media{% unless p.image %} card__media--text{% endunless %}">
+        {% if p.image %}<img src="{{ p.image }}" alt="{{ p.title }}" loading="lazy">
+        {% else %}<span>{{ p.title }}</span>{% endif %}
+      </div>
+      <div class="card__body">
+        <div class="card__meta">
+          {% for d in site.data.domains.work %}{% if d.slug == p.domain %}
+            <span class="card__domain">{{ d.icon }} {{ d.name }}</span>
+          {% endif %}{% endfor %}
+          {% for t in p.tags limit:3 %}<span class="card__tag">#{{ t | remove: " " }}</span>{% endfor %}
+        </div>
+        <h3 class="card__title">{{ p.title }}{% if p.subtitle %} <span style="font-weight:400;color:#8b939c">— {{ p.subtitle }}</span>{% endif %}</h3>
+        <p class="card__desc">{{ p.desc }}</p>
+        {% if p.foot %}<p class="card__foot">{{ p.foot }}</p>{% endif %}
+      </div>
+    </a>
+  </article>
+{% endfor %}
+</div>
