@@ -7,7 +7,10 @@ toc_sticky: true
 header:
   teaser: /assets/images/construction-ax-00-cover-find-to-act.png
 categories:
-  - AI
+  - ax
+  - construction
+redirect_from:
+  - /ai/construction-ax-5-ai-agents/
 tags:
   - 건설사 AX
   - 건설업 AX

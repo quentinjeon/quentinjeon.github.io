@@ -1,0 +1,33 @@
+# AX Insight 도메인 버티컬.
+# 글이 실제로 있는 도메인만 등록한다. (준비 중 도메인은 노출하지 않음)
+# 새 도메인 추가 절차:
+#   1) 여기에 항목 추가
+#   2) _pages/ax-<slug>.md 생성 (기존 파일 복사 후 domain 값만 교체)
+#   3) 포스트 front matter 에 categories: [ax, <slug>]
+ax:
+  - slug: construction
+    name: 건설
+    icon: "🏗"
+    tagline: "지식허브·법무·시공기준·고객여정·입찰 Risk — 건설사 업무를 Find에서 Act까지 잇는 구조"
+  - slug: foundation
+    name: 파운데이션
+    icon: "🧱"
+    tagline: "도메인을 가리지 않는 AX 공통 구조 — Agent Workspace, 오케스트레이션, 거버넌스"
+
+# 프로젝트(/work/) 도메인 축. AX 도메인과 같은 이름을 쓰되 프로젝트가 있는 것만 둔다.
+work:
+  - slug: food
+    name: 식품 제조
+    icon: "🥫"
+  - slug: commerce
+    name: 커머스
+    icon: "🛒"
+  - slug: finance
+    name: 금융·투자
+    icon: "📈"
+  - slug: public
+    name: 공공·국방
+    icon: "🏛"
+  - slug: foundation
+    name: 도메인 공통
+    icon: "🧱"
