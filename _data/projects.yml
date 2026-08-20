@@ -29,6 +29,15 @@
   desc: "조회된 데이터 없이는 답변을 생성하지 않습니다. 상담 챗봇의 실패는 모른다가 아니라 모르면서 지어낸다는 것."
   foot: "L1~L9 + L8.5 상태 그래프"
 
+- title: "TeleNews"
+  subtitle: "다중 소스 투자 인사이트"
+  domain: finance
+  tags: ["클러스터링", "로컬LLM", "랭킹 튜닝"]
+  image: /assets/images/cards/telenews.jpg
+  url: /work/telenews/
+  desc: "뉴스를 모으는 일에서 판단을 남기는 일로. 문제 정의가 두 번 바뀐 기록 — 작동한 것과 아직 틀린 것을 함께 적었습니다."
+  foot: "Kotlin · 40여 테이블 · 21 cron"
+
 - title: "agent-wallet"
   subtitle: "자율 사고·글쓰기 에이전트"
   domain: finance
