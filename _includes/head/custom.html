@@ -1,38 +1,11 @@
 <!-- start custom head snippets -->
 <style>
-/* ── 카드 그리드: 대표이미지 → 도메인·태그 → 제목 ───────────────── */
-.cardgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.4em;margin:1.5em 0 2.5em}
-.card{display:flex;flex-direction:column;border:1px solid #e6e8eb;border-radius:8px;overflow:hidden;
-      background:#fff;transition:transform .16s ease,box-shadow .16s ease}
-.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(0,0,0,.10)}
-.card__link{display:flex;flex-direction:column;height:100%;text-decoration:none!important;color:inherit}
-.card__media{aspect-ratio:16/9;overflow:hidden;background:#0f1c2e;position:relative}
-.card__media img{width:100%;height:100%;object-fit:cover;display:block;margin:0}
-/* 이미지 없는 프로젝트: 스크린샷을 지어내지 않고 타이포 커버로 대체 */
-.card__media--text{display:flex;align-items:center;justify-content:center;padding:1.1em;
-      background:linear-gradient(135deg,#16243b 0%,#284066 100%)}
-.card__media--text span{color:#fff;font-weight:700;font-size:1.05em;line-height:1.45;text-align:center;
-      word-break:keep-all;opacity:.95}
-.card__body{padding:.9em 1em 1.1em;display:flex;flex-direction:column;gap:.5em;flex:1}
-.card__meta{display:flex;flex-wrap:wrap;gap:.34em;align-items:center}
 .card__domain{font-size:.72em;font-weight:700;letter-spacing:.02em;padding:.2em .6em;border-radius:99px;
       background:#e8f0fe;color:#1a4b8c;white-space:nowrap}
-.card__tag{font-size:.72em;color:#6b7280;background:#f3f4f6;padding:.2em .55em;border-radius:99px;white-space:nowrap}
-.card__title{font-size:1.03em;font-weight:700;line-height:1.4;margin:0;word-break:keep-all;color:#1b1f24}
-.card:hover .card__title{color:#1a4b8c}
-.card__desc{font-size:.85em;color:#5b6470;line-height:1.55;margin:0;word-break:keep-all}
-.card__foot{margin-top:auto;padding-top:.5em;font-size:.75em;color:#8b939c}
-
-/* ── Scholar Labs: 내 산출물 vs 외부 자료 구분 배지 ──────────────── */
-.badge{display:inline-block;font-size:.7em;font-weight:700;padding:.22em .62em;border-radius:99px;
-      letter-spacing:.02em;white-space:nowrap;vertical-align:middle}
-.badge--original{background:#e7f6ec;color:#1a7f3c;border:1px solid #bfe6cd}
-.badge--external{background:#f4f4f5;color:#5b6470;border:1px solid #e0e2e5}
-.readitem{border-left:3px solid #e0e2e5;padding:.15em 0 .15em 1em;margin:0 0 1.35em}
-.readitem__title{font-weight:700;line-height:1.45;word-break:keep-all}
-.readitem__authors{font-size:.83em;color:#6b7280;margin:.2em 0 .35em}
-.readitem__why{font-size:.87em;color:#4b5563;line-height:1.6;word-break:keep-all}
-
+.postrow__thumb--text{display:flex;align-items:center;justify-content:center;padding:.6em;
+      background:linear-gradient(135deg,#16243b 0%,#284066 100%)}
+.postrow__thumb--text span{color:#fff;font-weight:700;font-size:.82em;line-height:1.35;text-align:center;
+      word-break:keep-all;opacity:.95}
 
 /* ── Medium식 포스트 행: 제목·부제 왼쪽, 썸네일 오른쪽. 소셜 지표 없이 해시태그 ── */
 .postrow{border-bottom:1px solid #ececee;padding:1.15em 0}
