@@ -1,0 +1,13 @@
+# 글타래(시리즈) 정의.
+# 포스트 front matter 의 series/part 와 slug·번호로 연결된다.
+# 아직 발행하지 않은 편은 status: planned 로 두면 내비에 '예정'으로 표시된다.
+vibe-agent-workspace:
+  name: "폴더를 에이전트로 만들 수 있을까?"
+  parts:
+    - part: 1
+      title: "폴더를 Agent Workspace로 볼 수 있는가"
+    - part: 2
+      title: "폴더형 AI 에이전트를 실제 시스템으로 만드는 방법"
+    - part: 3
+      title: "Orchestrator와 Agent Runner를 실제 코드로 구현"
+      status: planned

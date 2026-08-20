@@ -1,0 +1,20 @@
+{% assign s = site.data.series[page.series] %}
+{% if s %}
+<aside class="seriesnav">
+  <p class="seriesnav__label">글타래 · {{ s.name }}</p>
+  <ol class="seriesnav__list">
+  {% for p in s.parts %}
+    {% assign target = nil %}
+    {% for post in site.posts %}
+      {% if post.series == page.series and post.part == p.part %}{% assign target = post %}{% endif %}
+    {% endfor %}
+    <li class="{% if p.part == page.part %}is-current{% endif %}{% if p.status == 'planned' %} is-planned{% endif %}">
+      <span class="seriesnav__num">{{ p.part }}편</span>
+      {% if p.part == page.part %}<strong>{{ p.title }}</strong> <span class="seriesnav__here">지금 읽는 글</span>
+      {% elsif target %}<a href="{{ target.url }}">{{ p.title }}</a>
+      {% else %}<span>{{ p.title }}</span> <span class="seriesnav__soon">예정</span>{% endif %}
+    </li>
+  {% endfor %}
+  </ol>
+</aside>
+{% endif %}
