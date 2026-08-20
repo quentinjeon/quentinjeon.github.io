@@ -3,6 +3,7 @@ permalink: /ax/foundation/
 title: "AX Insight · 파운데이션"
 layout: single
 author_profile: true
+classes: wide
 domain: foundation
 ---
 

@@ -44,7 +44,7 @@ feature_row:
 | **P5** | 해석하지 않고 **컴파일**한다 |
 | **P6** | 기존 자산을 갈아엎지 않고 **Layer만 추가**한다 |
 
-[설계 원칙 자세히 보기 →](/principles/){: .btn .btn--inverse}
+[설계 원칙 자세히 보기 →](/labs/#설계-원칙){: .btn .btn--inverse}
 
 ---
 
