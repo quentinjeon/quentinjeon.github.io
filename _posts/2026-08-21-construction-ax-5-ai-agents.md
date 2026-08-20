@@ -2,15 +2,12 @@
 layout: single
 title: "건설사 AX는 챗봇 구축이 아니다"
 excerpt: "실제 업무를 바꾸는 5가지 AI Agent 사례 — Find, Compare, Decide, Generate, Connect, Act까지 연결되어야 비로소 AX가 됩니다."
-date: 2026-08-21
-classes: wide
 toc: true
-toc_label: "목차"
-toc_icon: "list"
+toc_sticky: true
 header:
-  teaser: /assets/images/2026-08-21/00-cover-find-to-act.png
+  teaser: /assets/images/construction-ax-00-cover-find-to-act.png
 categories:
-  - AX
+  - AI
 tags:
   - 건설사 AX
   - 건설업 AX
@@ -43,7 +40,8 @@ tags:
 
 여기서부터가 실제 **건설사 AX(AI Transformation)** 의 시작이라고 생각합니다.
 
-![건설사 AX는 챗봇 구축이 아니다 — 회사의 지식을 찾고, 비교하고, 판단하고, 실행하게 만드는 것](/assets/images/2026-08-21/00-cover-find-to-act.png)
+[![건설사 AX는 챗봇 구축이 아니다 — 회사의 지식을 찾고, 비교하고, 판단하고, 실행하게 만드는 것](/assets/images/construction-ax-00-cover-find-to-act.png)](/assets/images/construction-ax-00-cover-find-to-act.png)
+*건설사 AX의 6단계 프레임: Find · Compare · Decide · Generate · Connect · Act — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 건설사에서 필요한 것은 단순한 사내 챗봇이 아닙니다.
 
@@ -87,7 +85,8 @@ AI가 이 흐름 안으로 들어가야 비로소 AX가 됩니다.
 
 그래서 첫 번째 하위 시스템은 **통합 지식허브 & 검색 Agent**가 됩니다.
 
-![하위 시스템 1. 통합 지식허브 &amp; 검색 Agent — 흩어진 자료를 다시 정리하지 않고, 현재 위치에서 연결·색인·검색하는 기업지식 기반](/assets/images/2026-08-21/01-knowledge-hub-agent.png)
+[![하위 시스템 1. 통합 지식허브 & 검색 Agent — 흩어진 자료를 다시 정리하지 않고, 현재 위치에서 연결·색인·검색하는 기업지식 기반](/assets/images/construction-ax-01-knowledge-hub-agent.png)](/assets/images/construction-ax-01-knowledge-hub-agent.png)
+*하위 시스템 1. 통합 지식허브 & 검색 Agent — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 구조는 다음과 같습니다.
 
@@ -144,7 +143,8 @@ AI가 맞는 말을 하는 것보다,
 
 그리고 이를 사람이 직접 비교합니다.
 
-![하위 시스템 2. 법무·하자 소송 대응 Agent — 판결문·감정서·소장·과거 대응사례를 연결하여 현재 사건의 Risk와 대응가이드를 빠르게 만드는 시스템](/assets/images/2026-08-21/02-legal-defect-agent.png)
+[![하위 시스템 2. 법무·하자 소송 대응 Agent — 판결문·감정서·소장·과거 대응사례를 연결하여 현재 사건의 Risk와 대응가이드를 빠르게 만드는 시스템](/assets/images/construction-ax-02-legal-defect-agent.png)](/assets/images/construction-ax-02-legal-defect-agent.png)
+*하위 시스템 2. 법무·하자 소송 대응 Agent — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 AI를 적용하면 프로세스를 다음과 같이 바꿀 수 있습니다.
 
@@ -206,7 +206,8 @@ CS에서는 민원으로 보고,
 
 이 질문에 답하는 것이 **사내 시공지식 표준화 Agent**입니다.
 
-![하위 시스템 3. 사내 시공지식 표준화 Agent — 본사 기준·시방서·도면·법규·현장 노하우를 하나의 회사 기준 답변으로 연결하는 표준 지식 시스템](/assets/images/2026-08-21/03-construction-standard-agent.png)
+[![하위 시스템 3. 사내 시공지식 표준화 Agent — 본사 기준·시방서·도면·법규·현장 노하우를 하나의 회사 기준 답변으로 연결하는 표준 지식 시스템](/assets/images/construction-ax-03-construction-standard-agent.png)](/assets/images/construction-ax-03-construction-standard-agent.png)
+*하위 시스템 3. 사내 시공지식 표준화 Agent — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 예를 들어 현장에서 질문합니다.
 
@@ -275,7 +276,8 @@ AI는 단순히 인터넷이나 법규에서 답을 가져오는 것이 아니�
 
 그래서 필요한 것은 **Customer Journey Agent**입니다.
 
-![하위 시스템 4. 분양–입주–하자 Customer Journey Agent — 분양문의부터 계약·입주·하자접수·AS까지 고객 접점을 하나의 여정으로 연결하는 CX 시스템](/assets/images/2026-08-21/04-customer-journey-agent.png)
+[![하위 시스템 4. 분양–입주–하자 Customer Journey Agent — 분양문의부터 계약·입주·하자접수·AS까지 고객 접점을 하나의 여정으로 연결하는 CX 시스템](/assets/images/construction-ax-04-customer-journey-agent.png)](/assets/images/construction-ax-04-customer-journey-agent.png)
+*하위 시스템 4. 분양–입주–하자 Customer Journey Agent — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 청약 전에는 분양 AI가 동·호수·평형·분양조건을 안내합니다.
 
@@ -329,7 +331,8 @@ AI는 접수된 내용을 분석해
 
 AI가 이 노하우를 구조화할 수 있습니다.
 
-![하위 시스템 5. 입찰·공모지침 Risk Review Agent — 공모지침서·ITB·계약조건을 과거 손실사례와 비교하여 독소조항과 Go/No-Go 판단 포인트를 찾는 시스템](/assets/images/2026-08-21/05-bid-risk-review-agent.png)
+[![하위 시스템 5. 입찰·공모지침 Risk Review Agent — 공모지침서·ITB·계약조건을 과거 손실사례와 비교하여 독소조항과 Go/No-Go 판단 포인트를 찾는 시스템](/assets/images/construction-ax-05-bid-risk-review-agent.png)](/assets/images/construction-ax-05-bid-risk-review-agent.png)
+*하위 시스템 5. 입찰·공모지침 Risk Review Agent — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 ```
 신규 ITB / RFP / 공모지침서
@@ -370,7 +373,8 @@ AI의 역할은 **판단에 필요한 근거를 최대한 구조화해서 제공
 
 하지만 한 단계 위에서 보면 대부분 다음 여섯 가지로 수렴합니다.
 
-![건설사 유형별 핵심 니즈와 대표 Use Case — 건설사 니즈는 Find, Compare, Decide, Generate, Connect, Act 6개 축으로 정리된다](/assets/images/2026-08-21/06-needs-and-six-axes.png)
+[![건설사 유형별 핵심 니즈와 대표 Use Case — 건설사 니즈는 Find, Compare, Decide, Generate, Connect, Act 6개 축으로 정리된다](/assets/images/construction-ax-06-needs-and-six-axes.png)](/assets/images/construction-ax-06-needs-and-six-axes.png)
+*건설사 유형별 핵심 니즈와 6개 축 종합 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 ### 1. Find
 
