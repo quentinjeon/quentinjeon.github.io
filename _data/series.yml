@@ -10,4 +10,3 @@ vibe-agent-workspace:
       title: "폴더형 AI 에이전트를 실제 시스템으로 만드는 방법"
     - part: 3
       title: "Orchestrator와 Agent Runner를 실제 코드로 구현"
-      status: planned
