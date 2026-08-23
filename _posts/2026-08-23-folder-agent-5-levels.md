@@ -82,7 +82,7 @@ Agent
 
 ## 1단계. 문서와 대화
 
-[![1단계 — 문서와 대화](/assets/images/folder-agent-01-document-chat.png)](/assets/images/folder-agent-01-document-chat.png)
+[![1단계 — 문서와 대화](/assets/images/folder-agent-01-document-chat.svg)](/assets/images/folder-agent-01-document-chat.svg)
 *STEP 1. 문서와 대화 — 단일 문서 기반 질의 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 1단계는 하나의 문서 또는 제한된 문서 묶음 안에서 답을 찾는 구조다.
@@ -170,7 +170,7 @@ Sufficiency Checker
 
 ## 2단계. 폴더·워크스페이스와 대화
 
-[![2단계 — 폴더·워크스페이스와 대화](/assets/images/folder-agent-02-workspace-chat.png)](/assets/images/folder-agent-02-workspace-chat.png)
+[![2단계 — 폴더·워크스페이스와 대화](/assets/images/folder-agent-02-workspace-chat.svg)](/assets/images/folder-agent-02-workspace-chat.svg)
 *STEP 2. 폴더·워크스페이스와 대화 — 문서 간 맥락 이해 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 2단계부터 시스템은 하나의 문서가 아니라 **업무 공간 전체**를 이해한다.
@@ -324,7 +324,7 @@ Internal Policy Base
 
 ## 3단계. 커넥터·툴 사용
 
-[![3단계 — 커넥터·툴 사용](/assets/images/folder-agent-03-connectors-tools.png)](/assets/images/folder-agent-03-connectors-tools.png)
+[![3단계 — 커넥터·툴 사용](/assets/images/folder-agent-03-connectors-tools.svg)](/assets/images/folder-agent-03-connectors-tools.svg)
 *STEP 3. 커넥터·툴 사용 — 외부 시스템 연동 및 실행 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 3단계부터 시스템은 정보를 읽는 수준을 넘어 실제 행동을 수행한다.
@@ -438,7 +438,7 @@ audit_log: required
 
 ## 4단계. 여러 워커 작업 분배
 
-[![4단계 — 여러 워커 작업 분배](/assets/images/folder-agent-04-multi-worker.png)](/assets/images/folder-agent-04-multi-worker.png)
+[![4단계 — 여러 워커 작업 분배](/assets/images/folder-agent-04-multi-worker-orchestration.svg)](/assets/images/folder-agent-04-multi-worker-orchestration.svg)
 *STEP 4. 여러 워커에게 작업 분배 — 다중 전문 에이전트 협업 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 작업이 복잡해지면 하나의 에이전트가 모든 문맥을 들고 모든 판단을 수행하는 방식은 비효율적이다.
@@ -540,7 +540,7 @@ output:
 
 ## 5단계. 반복 실행과 자율 운영
 
-[![5단계 — 반복 실행과 자율 운영](/assets/images/folder-agent-05-autonomous-loop.png)](/assets/images/folder-agent-05-autonomous-loop.png)
+[![5단계 — 반복 실행과 자율 운영](/assets/images/folder-agent-05-autonomous-loop.svg)](/assets/images/folder-agent-05-autonomous-loop.svg)
 *STEP 5. 반복 실행과 자율 운영 — 계획→실행→검증→재실행 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 5단계에서는 한 번의 실행으로 끝내지 않는다.
@@ -644,7 +644,7 @@ execution_policy:
 
 ## 6. 전체 통합 아키텍처
 
-[![전체 통합 아키텍처](/assets/images/folder-agent-06-integrated-architecture.png)](/assets/images/folder-agent-06-integrated-architecture.png)
+[![전체 통합 아키텍처](/assets/images/folder-agent-06-integrated-architecture.svg)](/assets/images/folder-agent-06-integrated-architecture.svg)
 *전체 아키텍처 통합도 및 메모리·에스컬레이션 흐름 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 다섯 단계를 하나의 시스템으로 합치면 다음과 같은 계층 구조가 된다.
