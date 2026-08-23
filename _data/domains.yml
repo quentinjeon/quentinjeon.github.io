@@ -9,6 +9,10 @@ ax:
     name: 건설
     icon: "🏗"
     tagline: "지식허브·법무·시공기준·고객여정·입찰 Risk — 건설사 업무를 Find에서 Act까지 잇는 구조"
+  - slug: energy
+    name: 에너지
+    icon: "⚡"
+    tagline: "설비·안전·열수급·기한·현장을 하나의 업무 흐름으로 묶는 운영지능 구조"
   - slug: foundation
     name: 파운데이션
     icon: "🧱"
