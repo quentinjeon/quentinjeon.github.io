@@ -117,3 +117,6 @@ AI 도입이 필요하시면 언제든지 연락주세요.
 - Email: [zerotoanother@gmail.com](mailto:zerotoanother@gmail.com)
 - GitHub: [@quentinjeon](https://github.com/quentinjeon)
 - YouTube: [@zerotoanother](https://youtube.com/@zerotoanother)
+- Threads: [@cu.agent](https://www.threads.com/@cu.agent)
+
+[Threads에서 팔로우 →](https://www.threads.com/@cu.agent){: .btn .btn--primary}

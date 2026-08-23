@@ -12,6 +12,7 @@ AX는 도메인마다 다르게 생겼습니다. 건설사의 "과거 판례를 
 
 [프로젝트에서 실제 구현 보기 →](/work/){: .btn .btn--inverse .btn--small}
 [전체 글 →](/posts/){: .btn .btn--inverse .btn--small}
+[Threads 팔로우 →](https://www.threads.com/@cu.agent){: .btn .btn--primary .btn--small}
 
 {% for d in site.data.domains.ax %}
 {% assign posts = site.categories[d.slug] %}

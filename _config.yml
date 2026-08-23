@@ -124,6 +124,9 @@ author:
   email            :
   email_text       : "zerotoanother@gmail.com"  # 링크 없이 텍스트로만 표시
   links:
+    - label: "Threads"
+      icon: "fab fa-fw fa-threads"
+      url: "https://www.threads.com/@cu.agent"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://youtube.com/@zerotoanother"
@@ -149,6 +152,9 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
+    - label: "Threads"
+      icon: "fab fa-fw fa-threads"
+      url: "https://www.threads.com/@cu.agent"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/quentinjeon"
