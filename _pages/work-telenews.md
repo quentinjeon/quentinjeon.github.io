@@ -213,4 +213,4 @@ toc_label: "목차"
 ---
 
 [← 프로젝트 전체](/work/){: .btn .btn--inverse}
-[설계 원칙 6가지 →](/labs/#설계-원칙){: .btn .btn--inverse}
+[설계 원칙 6가지 →](/labs/principles/){: .btn .btn--inverse}

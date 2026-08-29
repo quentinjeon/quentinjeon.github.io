@@ -91,4 +91,4 @@ header:
 - **P2** 미매핑을 조용히 버리지 않고 건수·금액으로 드러낸다
 - **P5** 제품 DB가 모든 손익 계산의 단일 원천 — 해석하지 않고 컴파일한다
 
-[설계 원칙 전체 보기 →](/principles/){: .btn .btn--inverse}
+[설계 원칙 전체 보기 →](/labs/principles/){: .btn .btn--inverse}

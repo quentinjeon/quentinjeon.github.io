@@ -1,171 +1,71 @@
 ---
 permalink: /labs/
 title: "Scholar Labs"
-excerpt: "읽은 논문, 현장에서 도출한 설계 원칙, 그리고 가르친 기록."
+excerpt: "논문을 읽고 시스템으로 옮기는 기록. 직접 만든 것과 외부 저작물을 섞지 않습니다."
 layout: single
 author_profile: true
-toc: true
-toc_sticky: true
-toc_label: "Labs"
+classes: wide
 ---
 
-읽고 · 정리하고 · 가르친 기록입니다.
+논문을 읽고, 현장에서 원칙을 도출하고, 가르친 기록입니다.
+**직접 만든 것과 외부 저작물을 섞지 않습니다** — <span class="badge badge--original">직접 제작</span> 은 제가 쓰거나 만든 것, <span class="badge badge--external">외부 논문</span> 은 제3자 저작물입니다.
 
-**직접 만든 것과 외부 저작물을 섞지 않습니다.** 아래 모든 항목에는 출처 구분 배지가 붙습니다.
-
-<p>
-<span class="badge badge--original">직접 제작</span> 내가 쓰거나 만든 것 &nbsp;·&nbsp;
-<span class="badge badge--external">외부 논문</span> 제3자 저작물 — 저자·발표연도 명시
-</p>
-
----
-
-# 🔬 Original — 직접 제작
-
-## 설계 원칙
-
-<span class="badge badge--original">직접 제작</span> 여러 도메인에서 시스템을 만들며 반복해서 내린 판단을 6가지로 정리한 것입니다. 논문이 아니라 **현장에서 도출한 원칙**입니다.
-
-프로젝트의 도메인은 식품 제조, 커머스, 에너지, 투자로 제각각이지만 **같은 판단이 반복해서 나타납니다.** 그 판단을 6가지로 정리했습니다.
-
-공통점은 하나입니다.
-
-```
-현장의 말 / 엑셀 / 서류        →   상태를 가진 데이터 + 규칙엔진 + 감사이력
-(사람이 규칙을 기억)               (시스템이 규칙을 강제)
-```
-
----
-
-### P1. LLM은 후보만 만들고, 판정은 코드가, 확정은 사람이
-
-가장 자주 어기게 되는 원칙이고, 어겼을 때 대가가 가장 큽니다.
-
-LLM에 판정을 맡기면 데모는 화려하고 운영은 무너집니다. 같은 입력에 다른 답이 나오고, 왜 그렇게 판단했는지 설명할 수 없고, 틀렸을 때 책임 소재가 사라집니다.
-
-그래서 역할을 셋으로 나눕니다.
-
-| 주체 | 역할 |
-|---|---|
-| **LLM** | 비정형 입력에서 **후보값을 추출**한다. 여기까지만 |
-| **규칙엔진** | 한계기준·정책과 비교해 **판정**한다. 결정적이고 재현 가능 |
-| **사람** | 판정 결과를 보고 **확정**한다. 책임은 여기 있다 |
-
-- **HACCP FLOW** — LLM이 추출한 값은 예외 없이 `미확정` 상태로 진입. CCP 판정은 한계기준 대비 계산
-- **open-my-chatbot** — 조회된 데이터 없이는 답변을 생성하지 않음. 판단 불가 시 상담사 이관
-- **agent-wallet** — 발행 전 self-review 5체크. 실패가 5회 연속이면 자동 kill-switch
-
-### P2. 빈칸은 "없는 행"이 아니라 상태를 가진 행이다
-
-결측을 조용히 버리면 화면은 깨끗해지고 숫자는 틀립니다.
-
-시스템이 처리하지 못한 데이터를 제외하는 순간, 사용자는 **그 대시보드가 얼마만큼을 설명하지 못하는지 알 수 없게** 됩니다. 신뢰할 수 없는 숫자보다 나쁜 건, 신뢰할 수 없다는 사실을 모르는 숫자입니다.
-
-- **HACCP FLOW** — 빈칸은 사라지지 않고 `68/73 필수 필드`로 상시 노출
-- **온라인몰 수익률** — 매핑 실패 건을 큐에 남기고 **건수와 금액**을 함께 표시
-
-### P3. 원본은 불변, 정정은 이력으로 남는다
-
-기록을 고칠 수 있으면 그건 기록이 아닙니다.
-
-컴플라이언스가 걸린 영역에서 UPDATE와 DELETE는 기능이 아니라 **위험**입니다. 정정은 새 행을 쌓는 방식으로만 허용하고, 이전 값은 그대로 남깁니다.
-
-- **HACCP FLOW** — 모든 값에 시각·주체·근거. `FIELD_DERIVED`(시스템 파생)와 `FIELD_CONFIRMED`(사람 확정)를 구분해 저장
-- **청라 Data Hub** — 발행 이력 DELETE 금지, Rollback으로만 되돌림
-
-### P4. 상태 전이는 단일 게이트웨이를 통과한다
-
-상태를 여러 곳에서 바꿀 수 있으면, 어떤 경로로도 통과되는 구멍이 반드시 생깁니다.
-
-전이 지점을 하나로 모으면 검증과 로깅을 한 곳에만 붙이면 됩니다.
-
-- **HACCP FLOW** — 생산 전/중/후 3단계 배치 게이트. 원스트라이크 항목 미결 시 다음 단계 진입 불가
-- **OpenClaw** — 모든 주문이 `RiskManagerAgent` 게이트를 통과. 포지션 크기·동시 포지션 수·일일 손실 한도·연속 손실 횟수
-- **TeleNews** — 큐레이션 워크플로우를 통과한 항목만 발행
-
-### P5. 해석하지 않고 컴파일한다
-
-같은 입력을 매번 해석하면 매번 다른 결과가 나옵니다.
-
-규칙이 정해지는 시점에 **한 번 컴파일해서 산출물을 고정**하고, 이후에는 그 산출물만 참조합니다. 런타임에 판단할 일이 줄어들수록 시스템은 예측 가능해집니다.
-
-- **HACCP FLOW** — 제품 등록 시 1회 컴파일 → 해당 제품의 서류 구성과 CCP 기준이 고정
-- **온라인몰 수익률** — 제품 DB가 모든 손익 계산의 단일 원천
-
-### P6. 기존 자산을 갈아엎지 않고 Layer만 추가한다
-
-잘 돌아가는 코드를 건드리는 것은 대부분 손해입니다.
-
-현장에는 이미 오래 검증된 계산 로직과 서식이 있습니다. 그걸 "구조가 낡았다"는 이유로 다시 쓰면, 새 버그를 만들면서 기존 신뢰를 잃습니다. 없는 Layer만 얹는 편이 거의 항상 낫습니다.
-
-- **청라 Data Hub** — 기존 HTML 파서·계산·렌더 로직 무수정. 발행 Layer를 위에 얹고 4곳만 패치
-
----
-
-### 이 원칙들이 말하는 것
-
-> **AI로 무엇을 만들었는가가 아니라, AI를 어디에 두지 않았는가.**
-
-자동화의 난이도는 "무엇을 자동화할 수 있는가"가 아니라 **"무엇을 자동화하면 안 되는가"**를 판별하는 데 있습니다.
-
-HACCP FLOW에서 작업 시각을 자동으로 채우지 않기로 한 판단이 그 예입니다.
-
-> 몇 시에 했는지는 시스템이 알 수 없고, 추측해 넣으면 그게 허위 기록이다.
-
-[프로젝트 보기 →](/work/){: .btn .btn--primary}
-
----
-
-## 교재 · 커리큘럼
-
-### AI 논문을 위한 확률·수학 인터랙티브 교재
-
-<span class="badge badge--original">직접 제작</span> **36챕터 · QA 36/36 PASS**
-
-"초등학생도 이해할 수 있는 비유"와 "논문 수준의 수식"을 **같은 페이지에서** 제공하는 인터랙티브 HTML 교재.
-
-**문제**: 수식을 이해하지 못한 채 딥러닝 코드만 쓰는 상태. 기존 교재는 **너무 쉽거나 너무 어렵거나** 둘 중 하나.
-
-- 3층위 동시 제공 — Layer 1 일상 비유 / Layer 2 직관 해설 / Layer 3 MathJax 수식·논문 기호
-- 경사하강법 시뮬레이터 등 인터랙티브 실습
-- Phase별 졸업 기준 정의 — Phase 1 논문 수식 50% 독해 → Phase 3 논문 Contribution을 수식 수준에서 비판
-
-### 바이브코딩 커리큘럼
-
-<span class="badge badge--original">직접 제작</span>
-
-15단계 제작 순서 + 실습 5단계(데이터 이해 → PRD 작성 → docs 재작성 → mock → 개발). 단계마다 **"확인할 숫자"**를 명시해 학습자가 스스로 검증할 수 있게 구성했습니다.
-
-`sales` 저장소 안에 시스템과 커리큘럼이 함께 있습니다.
-
----
-
-## 논문 리뷰
-
-<span class="badge badge--original">직접 제작</span> 논문을 읽고 정리한 학습 노트가 이곳에 쌓입니다. 원논문은 제3자 저작물이고, 아래 글은 그것을 이해하기 위해 제가 재구성한 것입니다.
+[리딩 리스트 →](/labs/reading/){: .btn .btn--inverse .btn--small}
+[설계 원칙 →](/labs/principles/){: .btn .btn--inverse .btn--small}
+[교재 · 커리큘럼 →](/labs/teaching/){: .btn .btn--inverse .btn--small}
+[Threads 팔로우 →](https://www.threads.com/@cu.agent){: .btn .btn--primary .btn--small}
 
 {% assign labs = site.categories.labs | sort: "part" %}
+## 📖 논문 스터디 <span style="font-size:.55em;font-weight:400;color:#8b939c">{{ labs.size }}편</span>
+
+<p style="color:#6b7280;font-size:14px;line-height:1.6;margin:-.6em 0 .4em">원논문은 제3자 저작물이고, 아래 글은 그것을 이해하기 위해 제가 재구성한 학습 노트입니다.</p>
+
 {% for post in labs %}{% include post-row.html post=post %}{% endfor %}
 
-작성 템플릿은 `_drafts/paper-review-template.md` 에 있습니다.
+## 🔬 Original — 직접 제작
 
----
+<p style="color:#6b7280;font-size:14px;line-height:1.6;margin:-.6em 0 .8em">논문이 아니라 현장에서 도출한 것들입니다.</p>
 
-# 📚 Reading — 외부 논문
-
-<span class="badge badge--external">외부 논문</span> **아래는 전부 제3자 저작물입니다.** 제가 쓴 글이 아니며, 지금 하는 작업과 직접 맞물리는 것만 골랐습니다. 각 항목에 저자·발표연도를 함께 적었습니다.
-
-{% for t in site.data.reading %}
-## {{ t.track }}
-
-<p style="color:#6b7280;font-size:.9em;margin:-.3em 0 1.1em">{{ t.why }}</p>
-
-{% for p in t.papers %}<div class="readitem">
-  <div class="readitem__title"><a href="https://www.semanticscholar.org/search?q={{ p.title | uri_escape }}" target="_blank" rel="noopener">{{ p.title }}</a> <span class="badge badge--external">외부 논문</span></div>
-  <div class="readitem__authors">{{ p.authors }} · {{ p.year }}</div>
-  <div class="readitem__why">{{ p.note }}</div>
+<div class="cardgrid">
+  <article class="card">
+    <a class="card__link" href="/labs/principles/">
+      <div class="card__media card__media--text"><span>설계 원칙 P1~P6</span></div>
+      <div class="card__body">
+        <div class="card__meta"><span class="card__domain">🔬 직접 제작</span><span class="card__tag">#현장도출</span></div>
+        <h3 class="card__title">설계 원칙 P1~P6</h3>
+        <p class="card__desc">여러 도메인에서 시스템을 만들며 반복해서 내린 판단 6가지. LLM은 후보만 만들고, 판정은 코드가, 확정은 사람이.</p>
+      </div>
+    </a>
+  </article>
+  <article class="card">
+    <a class="card__link" href="/labs/teaching/">
+      <div class="card__media card__media--text"><span>교재 · 커리큘럼</span></div>
+      <div class="card__body">
+        <div class="card__meta"><span class="card__domain">🔬 직접 제작</span><span class="card__tag">#36챕터</span></div>
+        <h3 class="card__title">교재 · 커리큘럼</h3>
+        <p class="card__desc">AI 논문을 위한 확률·수학 인터랙티브 교재 36챕터와, 만드는 법을 가르친 바이브코딩 커리큘럼.</p>
+      </div>
+    </a>
+  </article>
 </div>
-{% endfor %}
-{% endfor %}
 
-<p style="font-size:.85em;color:#8b939c">링크는 제목 검색으로 연결됩니다. 식별자 오기입으로 다른 논문을 가리키는 일을 막기 위한 선택입니다.</p>
+## 📚 Reading — 외부 논문
+
+<p style="color:#6b7280;font-size:14px;line-height:1.6;margin:-.6em 0 .8em">지금 하는 작업과 직접 맞물리는 것만 골랐습니다. 전부 제3자 저작물이며 저자·발표연도를 함께 적었습니다.</p>
+
+{% assign total = 0 %}{% for t in site.data.reading %}{% assign total = total | plus: t.papers.size %}{% endfor %}
+<div class="cardgrid">
+{% for t in site.data.reading %}
+  <article class="card">
+    <a class="card__link" href="/labs/reading/">
+      <div class="card__body">
+        <div class="card__meta"><span class="card__domain">📚 외부 논문</span><span class="card__tag">#{{ t.papers.size }}편</span></div>
+        <h3 class="card__title">{{ t.track }}</h3>
+        <p class="card__desc">{{ t.why }}</p>
+      </div>
+    </a>
+  </article>
+{% endfor %}
+</div>
+
+<p style="font-size:.85em;color:#8b939c">4트랙 {{ total }}편 — <a href="/labs/reading/">리딩 리스트 전체 보기 →</a></p>

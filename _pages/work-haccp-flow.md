@@ -95,4 +95,4 @@ README에 **CCP2P 금속검출 공정이 미구현이며 원스트라이크 대�
 - **P4** 생산 전/중/후 3단계 배치 게이트
 - **P5** 제품 등록 시 1회 컴파일 → 산출물 고정
 
-[설계 원칙 전체 보기 →](/principles/){: .btn .btn--inverse}
+[설계 원칙 전체 보기 →](/labs/principles/){: .btn .btn--inverse}

@@ -10,7 +10,7 @@ classes: wide
 도메인은 식품 제조 · 커머스 · 금융·투자 · 공공으로 다르지만, 관통하는 작업은 하나입니다.
 **사람이 규칙을 머릿속에 들고 하던 업무를, 시스템이 규칙을 들고 있는 구조로 옮기는 것.**
 
-[도메인별 AX 설계 노트 →](/ax/){: .btn .btn--inverse} [설계 원칙 6가지 →](/labs/#설계-원칙){: .btn .btn--inverse}
+[도메인별 AX 설계 노트 →](/ax/){: .btn .btn--inverse} [설계 원칙 6가지 →](/labs/principles/){: .btn .btn--inverse}
 
 {% for d in site.data.domains.work %}
 {% assign items = site.data.projects | where: "domain", d.slug %}
