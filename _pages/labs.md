@@ -142,9 +142,12 @@ HACCP FLOW에서 작업 시각을 자동으로 채우지 않기로 한 판단이
 
 ## 논문 리뷰
 
-<span class="badge badge--original">직접 제작</span> 아래 리딩 리스트를 읽고 쓴 리뷰가 이곳에 쌓입니다. **아직 발행한 리뷰가 없습니다.**
+<span class="badge badge--original">직접 제작</span> 논문을 읽고 정리한 학습 노트가 이곳에 쌓입니다. 원논문은 제3자 저작물이고, 아래 글은 그것을 이해하기 위해 제가 재구성한 것입니다.
 
-작성 템플릿은 `_drafts/paper-review-template.md` 에 있습니다 — 복사해서 `_posts/` 로 옮기면 바로 발행됩니다.
+{% assign labs = site.categories.labs | sort: "part" %}
+{% for post in labs %}{% include post-row.html post=post %}{% endfor %}
+
+작성 템플릿은 `_drafts/paper-review-template.md` 에 있습니다.
 
 ---
 
