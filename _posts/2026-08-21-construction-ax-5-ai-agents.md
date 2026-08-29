@@ -5,7 +5,7 @@ excerpt: "실제 업무를 바꾸는 5가지 AI Agent 사례 — Find, Compare, 
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/construction-ax-00-cover-find-to-act.png
+  teaser: /assets/images/thumbs/construction-ax.jpg
 categories:
   - ax
   - construction

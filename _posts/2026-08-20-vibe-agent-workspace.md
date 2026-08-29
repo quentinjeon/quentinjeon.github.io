@@ -18,7 +18,7 @@ tags:
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/vibe-agent-00-overview.png
+  teaser: /assets/images/thumbs/vibe-agent-v1.jpg
 ---
 
 {% include series-nav.html %}
