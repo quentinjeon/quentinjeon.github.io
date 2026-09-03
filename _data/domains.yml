@@ -13,6 +13,10 @@ ax:
     name: 에너지
     icon: "⚡"
     tagline: "설비·안전·열수급·기한·현장을 하나의 업무 흐름으로 묶는 운영지능 구조"
+  - slug: commerce
+    name: 커머스·광고
+    icon: "🛒"
+    tagline: "검색·쇼핑·피드·커뮤니티로 흩어진 고객 접점을 하나의 최적화 단위로 묶는 구조"
   - slug: foundation
     name: 파운데이션
     icon: "🧱"
