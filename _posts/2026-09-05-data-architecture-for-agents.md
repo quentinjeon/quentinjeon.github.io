@@ -143,7 +143,8 @@ Agent를 만들다 보면 결국 같은 질문에 도달합니다.
 
 데이터 구조는 Agent가 세상을 보는 방식, Action 구조는 Agent가 세상에 개입하는 방식을 결정합니다.
 
-*그림 9. Data Layer → State/Context → Decision → Allowed Actions → Action/Tool*
+[![그림 9. 에이전트 구조 전체 흐름 — Data → State → Decision → Action → New State](/assets/images/data-arch-09-agent-flow.png)](/assets/images/data-arch-09-agent-flow.png)
+*그림 9. 에이전트 구조 전체 흐름 — Data → State → Decision → Action → New State — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 - Data Layer: Lake, Warehouse, Mart, View, API 등을 통해 신뢰 가능한 데이터를 제공한다.
 - State / Context: 현재 업무 판단에 필요한 정보만 묶는다. “현재 무엇이 사실인가?”를 표현하는 계층이다.
@@ -152,13 +153,28 @@ Agent를 만들다 보면 결국 같은 질문에 도달합니다.
 - Action / Tool: ERP 조회·수정, CRM 티켓 생성, 문자/메일 발송, 승인 요청 등 실제 시스템에 변화를 만든다.
 - Control Plane: RBAC, 승인(HITL), 감사로그, 예외처리, 재시도, 안전장치를 통해 실행을 통제한다.
 
+
+### 계층별로 나눠 보면
+
+위 루프에서 실제 설계가 갈리는 지점은 세 곳입니다. **무엇을 상태로 볼 것인가**, **그 상태에서 무엇을 허용할 것인가**, 그리고 **허용된 것을 어떻게 실행할 것인가**입니다.
+
+[![그림 9-1. State / Context와 Agent Mart — 원천을 다 뒤지지 않고 판단에 필요한 상태만 구조화한다](/assets/images/data-arch-10-state-context.png)](/assets/images/data-arch-10-state-context.png)
+*그림 9-1. State / Context와 Agent Mart — 원천을 다 뒤지지 않고 판단에 필요한 상태만 구조화한다 — 클릭하면 원본 크기로 볼 수 있습니다.*
+
+[![그림 9-2. Decision과 Allowed Actions — 모든 행동이 아니라 현재 허용된 행동만 좁혀 고른다](/assets/images/data-arch-11-decision-allowed-actions.png)](/assets/images/data-arch-11-decision-allowed-actions.png)
+*그림 9-2. Decision과 Allowed Actions — 모든 행동이 아니라 현재 허용된 행동만 좁혀 고른다 — 클릭하면 원본 크기로 볼 수 있습니다.*
+
+[![그림 9-3. Action / Tool 실행 구조 — 결정이 실제 시스템 변경으로 이어지는 지점](/assets/images/data-arch-12-action-tool.png)](/assets/images/data-arch-12-action-tool.png)
+*그림 9-3. Action / Tool 실행 구조 — 결정이 실제 시스템 변경으로 이어지는 지점 — 클릭하면 원본 크기로 볼 수 있습니다.*
+
 > 가장 중요한 문장 Table · Join · View · Mart는 Agent가 세상을 “어떻게 볼 것인가”를 설계하는 문제이고, Tool · Action은 Agent가 세상에 “무엇을 할 수 있는가”를 설계하는 문제다.
 
 ## 9. 예시: 건설 하자 처리 Agent
 
 Raw Data를 그대로 LLM에 던지는 대신, 업무 상태와 행동공간을 구조화합니다.
 
-*그림 10. 하자 처리 Agent에서 State와 Action Space를 연결하는 예*
+[![그림 10. 건설 하자 Agent — 접수부터 상태 갱신까지 Data → State → Decision → Action](/assets/images/data-arch-13-defect-agent-example.png)](/assets/images/data-arch-13-defect-agent-example.png)
+*그림 10. 건설 하자 Agent — 접수부터 상태 갱신까지 Data → State → Decision → Action — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 | 레이어 | 예시 | 설계 포인트 |
 |---|---|---|
@@ -186,6 +202,9 @@ Raw Data를 그대로 LLM에 던지는 대신, 업무 상태와 행동공간을 
 | Audit / Event | 실행 결과를 기록하고 새 상태로 반영 | 추적성·재현성·책임소재 확보 |
 
 > 전체 루프 Observation/Data → State/Context → Policy/Decision → Allowed Actions → Tool Execution → Event/Log → New State. 이 루프가 기업용 Agent의 기본 동작 구조다.
+
+[![그림 11. Feedback Loop와 운영 로그 — 실행 결과가 다시 데이터가 되어 다음 판단을 바꾼다](/assets/images/data-arch-14-feedback-loop.png)](/assets/images/data-arch-14-feedback-loop.png)
+*그림 11. Feedback Loop와 운영 로그 — 실행 결과가 다시 데이터가 되어 다음 판단을 바꾼다 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 ## 11. 실제 Agent 설계 시 체크리스트
 
