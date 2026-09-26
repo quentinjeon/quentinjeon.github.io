@@ -7,6 +7,14 @@ sitemap: false
 User-agent: *
 Allow: /
 
+# 국내 검색엔진은 와일드카드로도 수집되지만, 각 사의 검증 도구가
+# 자사 크롤러 항목을 직접 확인하는 경우가 있어 명시해 둔다.
+User-agent: Yeti
+Allow: /
+
+User-agent: Daumoa
+Allow: /
+
 # 검색 결과에 의미 없는 내부 경로
 Disallow: /assets/js/
 Disallow: /404.html
