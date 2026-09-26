@@ -97,7 +97,9 @@
 .nlpop[hidden]{display:none}
 .nlpop__dim{position:absolute;inset:0;background:rgba(11,17,25,.55)}
 .nlpop__card{position:relative;width:100%;max-width:420px;background:#fff;border-radius:12px;
-  padding:1.7em 1.6em 1.3em;box-shadow:0 18px 50px rgba(11,17,25,.28);animation:nlpop-in .22s ease-out}
+  padding:1.7em 1.6em 1.3em;box-shadow:0 18px 50px rgba(11,17,25,.28);animation:nlpop-in .22s ease-out;
+  /* 세로가 짧은 창에서 카드가 잘려 닫기 버튼에 닿지 못하는 것을 막는다 */
+  max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px);overflow-y:auto}
 @keyframes nlpop-in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 .nlpop__x{position:absolute;top:.35em;right:.5em;width:1.9em;height:1.9em;padding:0;border:0;
   background:none;color:#8b939c;font-size:1.35em;line-height:1;cursor:pointer;border-radius:6px}
@@ -115,7 +117,8 @@
 .nlpop__later:hover{color:#5b6470}
 @media (max-width:600px){
   .nlpop{align-items:flex-end;padding:0}
-  .nlpop__card{max-width:none;border-radius:14px 14px 0 0;padding:1.5em 1.3em 1.1em}
+  .nlpop__card{max-width:none;border-radius:14px 14px 0 0;padding:1.5em 1.3em 1.1em;
+    max-height:88vh;max-height:88dvh}
   @keyframes nlpop-in{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
 }
 @media (prefers-reduced-motion:reduce){ .nlpop__card{animation:none} }
