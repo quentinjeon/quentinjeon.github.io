@@ -30,7 +30,7 @@ title_separator          : "-"
 future                   : true
 published                : true
 subtitle                 : "Enterprise AX · GenAI Product · Automation" # site tagline that appears below site title in masthead
-name                     : "Quentin Jeon"
+name                     : "전용섭 Yongsub Jeon"
 description              : "현업의 Pain Point를 AX 과제로 정의하고 PoC에서 운영까지 만듭니다. 기업 AI 시스템 설계와 자동화 기록."
 url                      : "https://quentinjeon.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -107,13 +107,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/og-default.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person # Person or Organization (defaults to Person)
+  name                   : "전용섭" # If the user or organization name differs from the site's name
+  links: # 검색·AI 엔진이 동일 인물로 묶는 데 쓰인다 (schema sameAs)
+    - "https://github.com/quentinjeon"
+    - "https://www.threads.com/@cu.agent"
+    - "https://youtube.com/@zerotoanother"
 
 # Analytics
 analytics:

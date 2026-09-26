@@ -2,10 +2,12 @@
 {%- assign title_separator = site.title_separator | default: '-' -%}
 
 {%- assign page_title = page.title | default: site.title | replace: '|', '&#124;' -%}
-{%- if page_title contains site.title -%}
-  {%- assign seo_title = page_title | replace: '|', '&#124;' -%}
+{%- comment -%} 프런트매터의 seo_title 이 있으면 <title> 에만 그것을 쓴다 (본문 제목은 그대로) {%- endcomment -%}
+{%- assign title_for_seo = page.seo_title | default: page.title | default: site.title | replace: '|', '&#124;' -%}
+{%- if title_for_seo contains site.title -%}
+  {%- assign seo_title = title_for_seo | replace: '|', '&#124;' -%}
 {%- else -%}
-  {%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: site.title | replace: '|', '&#124;' -%}
+  {%- assign seo_title = title_for_seo | append: " " | append: title_separator | append: " " | append: site.title | replace: '|', '&#124;' -%}
 {%- endif -%}
 
 {%- assign page_title = page_title | markdownify | strip_html | strip_newlines | escape_once -%}
@@ -63,6 +65,8 @@
 
 {% if site.twitter.username %}
   <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
+{% endif %}
+{% comment %} 카드·제목·이미지는 계정이 없어도 내보낸다 — 없으면 공유 시 맨 링크로 나간다 {% endcomment %}
   <meta name="twitter:title" content="{{ page_title }}">
   <meta name="twitter:description" content="{{ seo_description }}">
   <meta name="twitter:url" content="{{ canonical_url }}">
@@ -80,7 +84,6 @@
   {% if author_twitter %}
     <meta name="twitter:creator" content="@{{ author_twitter }}">
   {% endif %}
-{% endif %}
 
 {% if page.date %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
@@ -109,9 +112,8 @@
   <link rel="next" href="{{ paginator.next_page_path | absolute_url }}">
 {% endif %}
 
-{% if page.url == '/' %}
-  {% include schema.html %}
-{% endif %}
+{% include schema-person.html %}
+{% include schema-article.html %}
 
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />

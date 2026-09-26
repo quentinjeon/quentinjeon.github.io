@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "에이전트는 어느 수준에서 행동해야 하는가 (1/4) — 문제 정의와 기초 수학"
+seo_title: "에이전트 행동 수준 (1/4) — 문제 정의와 기초 수학"
 excerpt: "에이전트는 '무엇을 할까'보다 'Tool·Skill·Delegation·Human·Control 중 어느 수준에서 행동할까'를 먼저 물어야 한다. 중심 질문, 다섯 행동 수준, 전체 아키텍처, 정책 보존 불변조건까지."
 series: agent-level-20steps
 part: 1

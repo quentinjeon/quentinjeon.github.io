@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 classes: wide
 domain: foundation
+description: "도메인을 가리지 않는 AX 공통 구조. Agent Workspace, 오케스트레이션, 권한과 거버넌스 설계를 다룹니다."
 ---
 
 {% assign d = "" %}{% for x in site.data.domains.ax %}{% if x.slug == page.domain %}{% assign d = x %}{% endif %}{% endfor %}

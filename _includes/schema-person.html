@@ -1,0 +1,28 @@
+{%- comment -%}
+  사이트 전체에 공통으로 붙는 저자 엔티티.
+  sameAs 로 외부 계정을 묶어야 검색·AI 엔진이 동일 인물로 인식한다.
+{%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": {{ '/#person' | absolute_url | jsonify }},
+  "name": "전용섭",
+  "alternateName": ["Yongsub Jeon", "전용섭 Yongsub Jeon", "Quentin Jeon"],
+  "url": {{ '/' | absolute_url | jsonify }},
+  "mainEntityOfPage": {{ '/about/' | absolute_url | jsonify }},
+  "image": {{ site.author.avatar | absolute_url | jsonify }},
+  "jobTitle": "AX 시스템 설계자",
+  "description": {{ site.author.bio | jsonify }},
+  "knowsAbout": [
+    "Enterprise AI", "AI Transformation", "AI Agent", "Multi-Agent System",
+    "업무 자동화", "데이터 아키텍처", "건설 AX", "제조 AX", "커머스 광고 최적화"
+  ],
+  "homeLocation": { "@type": "Place", "name": "Seoul, Korea" },
+  "sameAs": [
+    "https://github.com/quentinjeon",
+    "https://www.threads.com/@cu.agent",
+    "https://youtube.com/@zerotoanother"
+  ]
+}
+</script>

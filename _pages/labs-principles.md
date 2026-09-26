@@ -9,6 +9,7 @@ toc_sticky: true
 toc_label: "원칙"
 redirect_from:
   - /principles/
+description: "시스템을 설계할 때 반복해서 쓰는 원칙들. 권한, 상태, 감사이력, 실패 처리에 대한 기준을 정리했습니다."
 ---
 
 <span class="badge badge--original">직접 제작</span> 여러 도메인에서 시스템을 만들며 반복해서 내린 판단을 6가지로 정리한 것입니다. 논문이 아니라 **현장에서 도출한 원칙**입니다.

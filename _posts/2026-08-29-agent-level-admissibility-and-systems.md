@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "에이전트는 어느 수준에서 행동해야 하는가 (2/4) — 허용 판정과 시스템 기초"
+seo_title: "에이전트 행동 수준 (2/4) — 허용 판정과 시스템 기초"
 excerpt: "F/A/C/V 진리표로 '지금 이 행동이 허용되는가'를 판정하고, 효용·argmax·그래프·상태기계·Tool 계약까지 시스템 기초를 세운다."
 series: agent-level-20steps
 part: 2

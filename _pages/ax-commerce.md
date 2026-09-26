@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 classes: wide
 domain: commerce
+description: "검색·쇼핑·피드·커뮤니티로 흩어진 고객 접점을 하나의 최적화 단위로 묶는 커머스·광고 AX 기록."
 ---
 
 {% assign d = "" %}{% for x in site.data.domains.ax %}{% if x.slug == page.domain %}{% assign d = x %}{% endif %}{% endfor %}

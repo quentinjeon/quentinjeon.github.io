@@ -1,0 +1,34 @@
+{%- comment -%}
+  글 상세에 BlogPosting 구조화 데이터를 넣는다.
+  테마 기본 schema.html 은 홈에서 Person 만 찍기 때문에 글 정보가 기계에 전달되지 않았다.
+  이미지는 헤더 이미지 → 티저 → 사이트 기본값 순으로 고른다.
+{%- endcomment -%}
+{%- if page.date -%}
+{%- assign a = page.author | default: site.author -%}
+{%- assign img = page.header.og_image | default: page.header.image | default: page.header.teaser | default: site.og_image -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": {{ page.url | absolute_url | jsonify }} },
+  "headline": {{ page.title | strip_html | truncate: 110, "" | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
+  {% if page.description or page.excerpt %}"description": {{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 300, "" | jsonify }},{% endif %}
+  {% if img %}"image": {{ img | absolute_url | jsonify }},{% endif %}
+  {% if page.tags.size > 0 %}"keywords": {{ page.tags | join: ", " | jsonify }},{% endif %}
+  "inLanguage": "ko-KR",
+  "author": {
+    "@type": "Person",
+    "name": {{ site.author.name | jsonify }},
+    "url": {{ '/about/' | absolute_url | jsonify }}
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": {{ site.author.name | jsonify }},
+    "url": {{ '/' | absolute_url | jsonify }}
+  }
+}
+</script>
+{%- endif -%}

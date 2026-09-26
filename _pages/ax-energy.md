@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 classes: wide
 domain: energy
+description: "설비·안전·열수급·기한·현장을 하나의 업무 흐름으로 묶는 에너지 도메인 운영지능 설계 기록."
 ---
 
 {% assign d = "" %}{% for x in site.data.domains.ax %}{% if x.slug == page.domain %}{% assign d = x %}{% endif %}{% endfor %}

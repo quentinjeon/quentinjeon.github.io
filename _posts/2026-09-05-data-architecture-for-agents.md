@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "데이터 아키텍처 개념정리 — Lake·Warehouse·Mart에서 Agent Action까지"
+seo_title: "데이터 아키텍처 개념정리 — Lake·Warehouse·Mart"
 excerpt: "Table·Join·View, ETL과 ELT, Lake·Warehouse·Mart, Star Schema, 마트 갱신 방식을 정리하고, 그 데이터 계층이 Agent의 State와 Allowed Action으로 어떻게 이어지는지까지 연결합니다."
 categories:
   - ax

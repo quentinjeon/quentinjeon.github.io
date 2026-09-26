@@ -5,6 +5,7 @@ excerpt: "논문을 읽고 시스템으로 옮기는 기록. 직접 만든 것�
 layout: single
 author_profile: true
 classes: wide
+description: "AI 에이전트 관련 논문을 읽고 현장 설계에 어떻게 쓰이는지 정리한 스터디 기록과 강의 자료 모음입니다."
 ---
 
 논문을 읽고, 현장에서 원칙을 도출하고, 가르친 기록입니다.

@@ -7,6 +7,7 @@ author_profile: true
 toc: true
 toc_sticky: true
 toc_label: "트랙"
+description: "AI 에이전트·멀티에이전트 시스템 관련해 읽을 논문 목록과 선정 이유를 정리했습니다."
 ---
 
 <span class="badge badge--external">외부 논문</span> **아래는 전부 제3자 저작물입니다.** 제가 쓴 글이 아니며, 지금 하는 작업과 직접 맞물리는 것만 골랐습니다. 각 항목에 저자·발표연도를 함께 적었습니다.

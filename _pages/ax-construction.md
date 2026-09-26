@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 classes: wide
 domain: construction
+description: "건설사 업무를 Find에서 Act까지 잇는 AX 구조. 지식허브·법무·시공기준·고객여정·입찰 Risk 다섯 영역의 에이전트 설계 기록."
 ---
 
 {% assign d = "" %}{% for x in site.data.domains.ax %}{% if x.slug == page.domain %}{% assign d = x %}{% endif %}{% endfor %}

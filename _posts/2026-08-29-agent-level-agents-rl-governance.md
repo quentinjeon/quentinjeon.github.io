@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "에이전트는 어느 수준에서 행동해야 하는가 (3/4) — Agent·강화학습·거버넌스"
+seo_title: "에이전트 행동 수준 (3/4) — 강화학습과 거버넌스"
 excerpt: "Workflow와 Skill의 경계, RAG와 ReAct, MDP에서 SMDP와 GH-SMDP로 가는 이유, 그리고 권한 모델과 구조화된 상태 설계."
 series: agent-level-20steps
 part: 3

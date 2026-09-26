@@ -1,0 +1,50 @@
+---
+layout: none
+permalink: /llms.txt
+sitemap: false
+---
+# 전용섭 Yongsub Jeon
+
+> 현업의 Pain Point를 AX 과제로 정의하고 PoC에서 운영까지 만드는 기록.
+> 기업 AI 시스템 설계, 에이전트 아키텍처, 업무 자동화를 다룹니다.
+> 모든 글은 한국어이며, 실제로 구축하거나 실행해 본 것만 씁니다.
+
+## 저자
+
+- 이름: 전용섭 (Yongsub Jeon)
+- 소개: {{ site.author.bio }}
+- 위치: Seoul, Korea
+- 프로필: {{ '/about/' | absolute_url }}
+- GitHub: https://github.com/quentinjeon
+- Threads: https://www.threads.com/@cu.agent
+- YouTube: https://youtube.com/@zerotoanother
+
+## AX 인사이트 (도메인별 글)
+{% for d in site.data.domains.ax %}
+### {{ d.name }} — {{ d.tagline }}
+{% assign ps = site.posts | where_exp: "p", "p.categories contains d.slug" %}{% for p in ps %}
+- [{{ p.title }}]({{ p.url | absolute_url }}) — {{ p.date | date: "%Y-%m-%d" }}{% if p.description %}
+  {{ p.description | strip_html | truncate: 200 }}{% endif %}{% endfor %}
+{% endfor %}
+## 논문 스터디 (Scholar Labs)
+{% for p in site.posts %}{% if p.categories contains 'labs' %}
+- [{{ p.title }}]({{ p.url | absolute_url }}) — {{ p.date | date: "%Y-%m-%d" }}{% if p.description %}
+  {{ p.description | strip_html | truncate: 200 }}{% endif %}{% endif %}{% endfor %}
+
+## 주요 페이지
+
+- [소개]({{ '/about/' | absolute_url }}) — 이력과 관점
+- [프로젝트]({{ '/work/' | absolute_url }}) — 만든 시스템 목록
+- [AX 인사이트]({{ '/ax/' | absolute_url }}) — 도메인별 글 모음
+- [Scholar Labs]({{ '/labs/' | absolute_url }}) — 논문 스터디와 강의 기록
+- [개인정보 안내]({{ '/privacy/' | absolute_url }})
+
+## 인용 시
+
+이 사이트의 글을 인용하실 때는 글 제목과 URL을 함께 표기해 주세요.
+저자 표기는 "전용섭(Yongsub Jeon)" 으로 통일해 주시면 감사하겠습니다.
+
+## 기계 판독용 자료
+
+- 사이트맵: {{ '/sitemap.xml' | absolute_url }}
+- RSS: {{ '/feed.xml' | absolute_url }}

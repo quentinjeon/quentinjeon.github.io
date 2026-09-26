@@ -1,0 +1,14 @@
+---
+layout: none
+permalink: /robots.txt
+sitemap: false
+---
+# 모든 크롤러 허용 — AI 검색엔진 포함. 막고 싶은 경로가 생기면 여기에 Disallow 를 추가한다.
+User-agent: *
+Allow: /
+
+# 검색 결과에 의미 없는 내부 경로
+Disallow: /assets/js/
+Disallow: /404.html
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

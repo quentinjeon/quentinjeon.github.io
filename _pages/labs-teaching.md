@@ -4,6 +4,7 @@ title: "교재 · 커리큘럼"
 excerpt: "AI 논문을 위한 확률·수학 인터랙티브 교재 36챕터와 바이브코딩 커리큘럼."
 layout: single
 author_profile: true
+description: "기업과 기관에서 진행한 AI·AX 강의 사례와 교육 자료를 모았습니다."
 ---
 
 ### AI 논문을 위한 확률·수학 인터랙티브 교재
