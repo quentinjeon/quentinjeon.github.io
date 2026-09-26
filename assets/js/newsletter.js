@@ -31,6 +31,7 @@
           email: email,
           phone: form.phone.value.trim(),
           consent: true,
+          marketing: form.marketing.checked,
           website: form.website.value,
           source: location.pathname
         })
