@@ -91,5 +91,33 @@
 .nlbox__msg.is-err{color:#c2410c}
 .nlbox__pending{font-size:.88em;color:#5b6470;margin:0}
 @media (max-width:600px){ .nlbox{padding:1.2em} .nlbox__row{gap:.6em} }
+
+/* 읽는 중 구독 팝업 */
+.nlpop{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;padding:16px}
+.nlpop[hidden]{display:none}
+.nlpop__dim{position:absolute;inset:0;background:rgba(11,17,25,.55)}
+.nlpop__card{position:relative;width:100%;max-width:420px;background:#fff;border-radius:12px;
+  padding:1.7em 1.6em 1.3em;box-shadow:0 18px 50px rgba(11,17,25,.28);animation:nlpop-in .22s ease-out}
+@keyframes nlpop-in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.nlpop__x{position:absolute;top:.35em;right:.5em;width:1.9em;height:1.9em;padding:0;border:0;
+  background:none;color:#8b939c;font-size:1.35em;line-height:1;cursor:pointer;border-radius:6px}
+.nlpop__x:hover{background:#f1f3f5;color:#4b5563}
+.nlpop__title{font-size:1.28em;font-weight:800;line-height:1.35;margin:0 0 .35em;color:#1b1f24;word-break:keep-all}
+.nlpop__desc{font-size:.9em;color:#5b6470;line-height:1.6;margin:0 0 1.2em;word-break:keep-all}
+.nlpop__field{display:flex;flex-direction:column;gap:.3em;margin-bottom:.9em}
+.nlpop__label{font-size:.78em;font-weight:700;color:#4b5563}
+.nlpop__field input{width:100%;padding:.68em .8em;font-size:.95em;border:1px solid #d5d9de;
+  border-radius:6px;background:#fff;color:#1b1f24}
+.nlpop__field input:focus{outline:2px solid #1a4b8c;outline-offset:1px;border-color:#1a4b8c}
+.nlpop__submit{width:100%;margin-top:.2em}
+.nlpop__later{display:block;width:100%;margin-top:.5em;padding:.5em;border:0;background:none;
+  font-size:.82em;color:#8b939c;cursor:pointer;text-decoration:underline}
+.nlpop__later:hover{color:#5b6470}
+@media (max-width:600px){
+  .nlpop{align-items:flex-end;padding:0}
+  .nlpop__card{max-width:none;border-radius:14px 14px 0 0;padding:1.5em 1.3em 1.1em}
+  @keyframes nlpop-in{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
+}
+@media (prefers-reduced-motion:reduce){ .nlpop__card{animation:none} }
 </style>
 <!-- end custom head snippets -->

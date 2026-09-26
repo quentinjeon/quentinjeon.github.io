@@ -1,0 +1,42 @@
+{%- comment -%}
+  읽는 중에 한 번 뜨는 구독 권유. 포스트 본문에서만, 엔드포인트가 있을 때만.
+  띄우는 시점·닫음 기억은 assets/js/newsletter.js 가 맡는다.
+{%- endcomment -%}
+{% if site.newsletter.endpoint and site.newsletter.endpoint != "" and page.id %}
+<div class="nlpop" id="nlpop" hidden>
+  <div class="nlpop__dim" data-nlpop-close></div>
+
+  <div class="nlpop__card" role="dialog" aria-modal="true" aria-labelledby="nlpop-title">
+    <button type="button" class="nlpop__x" data-nlpop-close aria-label="닫기">&times;</button>
+
+    <p class="nlbox__eyebrow">뉴스레터</p>
+    <h2 class="nlpop__title" id="nlpop-title">이런 글이 {{ site.posts | size }}개 더 있습니다</h2>
+    <p class="nlpop__desc">현장에서 직접 돌려본 AX 설계 기록입니다.
+      새 글이 올라오면 메일로 보내드립니다.</p>
+
+    <form class="nlbox__form nlpop__form" data-nl-endpoint="{{ site.newsletter.endpoint }}" novalidate>
+      <label class="nlpop__field">
+        <span class="nlpop__label">이메일</span>
+        <input type="email" name="email" placeholder="you@example.com" required
+               autocomplete="email" inputmode="email">
+      </label>
+
+      <label class="nlbox__consent">
+        <input type="checkbox" name="consent" required>
+        <span><b>[필수]</b> 새 글 알림을 위해 이메일을 수집하며
+          <b>3년</b> 후 파기합니다. <a href="/privacy/" target="_blank" rel="noopener">자세히 보기</a></span>
+      </label>
+
+      {%- comment -%} 사람에게는 보이지 않는 봇 트랩 {%- endcomment -%}
+      <div class="nlbox__hp" aria-hidden="true">
+        <label>website<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+      </div>
+
+      <button type="submit" class="nlbox__submit nlpop__submit">구독 신청</button>
+      <p class="nlbox__msg" role="status" aria-live="polite"></p>
+    </form>
+
+    <button type="button" class="nlpop__later" data-nlpop-close>나중에 볼게요</button>
+  </div>
+</div>
+{% endif %}
