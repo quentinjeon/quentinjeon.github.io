@@ -142,7 +142,11 @@ def thumb(src):
 
 
 def notify(urls):
-    """IndexNow 전송. 빙·Yandex 가 공유한다(구글·네이버는 쓰지 않음)."""
+    """IndexNow 전송.
+
+    참여 검색엔진: Bing · Naver · Yandex · Seznam.cz · Yep (indexnow.org 공지 기준).
+    구글은 참여하지 않으므로 Search Console 에서 따로 요청해야 한다.
+    """
     urls = [u if u.startswith('http') else f'https://{HOST}{u}' for u in urls]
     body = json.dumps({"host": HOST, "key": KEY,
                        "keyLocation": f"https://{HOST}/{KEY}.txt",
@@ -158,9 +162,9 @@ def notify(urls):
                '400': '형식 오류', '403': '키 불일치 — 키 파일 확인',
                '422': '호스트 불일치', '429': '요청 과다'}
     print(f"IndexNow → HTTP {code}  ({meaning.get(code, '문서 확인 필요')})")
-    print("\n구글·네이버는 IndexNow 를 쓰지 않습니다. 각각 수동 요청하세요.")
-    print("  구글  : Search Console → URL 검사 → 색인 생성 요청")
-    print("  네이버: 서치어드바이저 → 요청 → 웹 페이지 수집")
+    print("\n이 요청은 Bing · Naver · Yandex · Seznam · Yep 로 전달됩니다.")
+    print("구글만 IndexNow 에 참여하지 않으므로 따로 요청하세요.")
+    print("  구글: Search Console → URL 검사 → 색인 생성 요청")
 
 
 if __name__ == '__main__':
