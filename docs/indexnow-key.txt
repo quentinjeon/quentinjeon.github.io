@@ -1,0 +1,10 @@
+IndexNow 키 (빙·Yandex·Seznam 즉시 색인 요청용)
+
+키        : 1e2a057fedcc3740992d46287650f91d
+키 파일   : https://quentinjeon.github.io/1e2a057fedcc3740992d46287650f91d.txt
+생성일    : 2026-09-27
+
+새 글을 올린 뒤 아래 주소를 브라우저에 붙여넣으면 즉시 수집 요청이 들어간다.
+  https://api.indexnow.org/indexnow?url=<글주소>&key=1e2a057fedcc3740992d46287650f91d
+
+이 파일은 docs/ 에 있어 배포되지 않는다. 키 파일 자체는 루트에 있어야 하므로 지우지 말 것.
