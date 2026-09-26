@@ -189,6 +189,7 @@ include:
   - _pages
 exclude:
   - docs
+  - tools
   - test
   - README.md
   - CHANGELOG.md
