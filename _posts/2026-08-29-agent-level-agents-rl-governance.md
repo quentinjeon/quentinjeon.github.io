@@ -31,7 +31,7 @@ header:
 
 ## 11단계. Workflow·Skill·Delegation·Human·Control 구분하기
 
-[![11단계. Workflow·Skill·Delegation·Human·Control 구분하기](/assets/images/agent-level-step-11-workflow-skill-delegation-human-control.png)](/assets/images/agent-level-step-11-workflow-skill-delegation-human-control.png)
+[![11단계. Workflow·Skill·Delegation·Human·Control 구분하기](/assets/images/agent-level-step-11-workflow-skill-delegation-human-control.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-11-workflow-skill-delegation-human-control.png)
 *11단계. Workflow·Skill·Delegation·Human·Control 구분하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 - **Workflow**는 작업의 순서·분기·반복·예외 처리를 정의한다.
@@ -47,7 +47,7 @@ Skill은 비교적 정의된 내부 절차를 실행한다. Delegated Agent는 �
 
 ## 12단계. LLM·RAG·ReAct·Function Calling 이해하기
 
-[![12단계. LLM·RAG·ReAct·Function Calling 이해하기](/assets/images/agent-level-step-12-llm-rag-react-function-calling.png)](/assets/images/agent-level-step-12-llm-rag-react-function-calling.png)
+[![12단계. LLM·RAG·ReAct·Function Calling 이해하기](/assets/images/agent-level-step-12-llm-rag-react-function-calling.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-12-llm-rag-react-function-calling.png)
 *12단계. LLM·RAG·ReAct·Function Calling 이해하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 | 방식 | 주된 목적 | 외부 상태 변경 |
@@ -66,7 +66,7 @@ ReAct형 Agent Loop는 관찰→상태 갱신→행동→새 관찰의 반복을
 
 ## 13단계. MDP·SMDP·Options·GH-SMDP 이해하기
 
-[![13단계. MDP·SMDP·Options·GH-SMDP 이해하기](/assets/images/agent-level-step-13-mdp-smdp-options-gh-smdp.png)](/assets/images/agent-level-step-13-mdp-smdp-options-gh-smdp.png)
+[![13단계. MDP·SMDP·Options·GH-SMDP 이해하기](/assets/images/agent-level-step-13-mdp-smdp-options-gh-smdp.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-13-mdp-smdp-options-gh-smdp.png)
 *13단계. MDP·SMDP·Options·GH-SMDP 이해하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 MDP는 상태에 따라 행동을 선택하고 보상과 다음 상태를 얻는 순차적 의사결정 모델이다.
@@ -94,7 +94,7 @@ $$
 
 ## 14단계. 거버넌스와 권한 모델 이해하기
 
-[![14단계. 거버넌스와 권한 모델 이해하기](/assets/images/agent-level-step-14-governance-authority.png)](/assets/images/agent-level-step-14-governance-authority.png)
+[![14단계. 거버넌스와 권한 모델 이해하기](/assets/images/agent-level-step-14-governance-authority.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-14-governance-authority.png)
 *14단계. 거버넌스와 권한 모델 이해하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 거버넌스는 “무엇을 할 수 있는가”뿐 아니라 “누가 어떤 목적과 책임 아래 결정하고 승인하며 기록하는가”를 정한다.
@@ -118,7 +118,7 @@ $$
 
 ## 15단계. 구조화된 상태와 변경 등급 설계하기
 
-[![15단계. 구조화된 상태와 변경 등급 설계하기](/assets/images/agent-level-step-15-structured-state-mutability.png)](/assets/images/agent-level-step-15-structured-state-mutability.png)
+[![15단계. 구조화된 상태와 변경 등급 설계하기](/assets/images/agent-level-step-15-structured-state-mutability.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-15-structured-state-mutability.png)
 *15단계. 구조화된 상태와 변경 등급 설계하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 런타임 상태는 일곱 필드로 분리한다.

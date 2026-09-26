@@ -36,7 +36,7 @@ header:
 
 산업 전문가는 현장의 문제와 고객, 업무 규칙, 예외를 가장 잘 안다. IT 전문가는 그 지식을 데이터, 정책, 액션, 권한, 로그, 평가, 복구 구조로 바꾸는 방법을 알아야 한다. AI 에이전트 시대의 핵심은 두 역할 중 하나가 다른 하나를 대체하는 것이 아니라, 서로 다른 전문성을 어떤 구조로 결합하느냐에 있다.
 
-[![산업 전문가는 옳은 판단을 정의하고, IT 전문가는 안전한 반복 실행 구조를 설계한다](/assets/images/role-split-01-overview.png)](/assets/images/role-split-01-overview.png)
+[![산업 전문가는 옳은 판단을 정의하고, IT 전문가는 안전한 반복 실행 구조를 설계한다](/assets/images/role-split-01-overview.png){: loading="lazy" decoding="async" width="1672" height="941"}](/assets/images/role-split-01-overview.png)
 *그림 1. 산업 전문가는 옳은 판단을 정의하고, IT 전문가는 안전한 반복 실행 구조를 설계한다 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 ## 한눈에 보는 핵심 결론
@@ -77,7 +77,7 @@ AI는 앞의 두 단계에 대한 장벽을 빠르게 낮춘다. 하지만 운�
 
 > **핵심** — 결과를 되돌릴 수 있는가, 외부 고객에게 직접 영향을 미치는가, 금전·계약·법률·안전에 연결되는가, 민감정보를 다루는가, 다른 시스템의 데이터를 생성·수정·삭제하는가, 장기간 운영해야 하는가.
 
-[![역할 분담의 기준은 시스템의 크기가 아니라 실패 비용과 책임 범위다](/assets/images/role-split-02-failure-cost.png)](/assets/images/role-split-02-failure-cost.png)
+[![역할 분담의 기준은 시스템의 크기가 아니라 실패 비용과 책임 범위다](/assets/images/role-split-02-failure-cost.png){: loading="lazy" decoding="async" width="1672" height="941"}](/assets/images/role-split-02-failure-cost.png)
 *그림 2. 역할 분담의 기준은 시스템의 크기가 아니라 실패 비용과 책임 범위다 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 위험이 낮은 개인 업무 자동화나 읽기 전용 검색은 산업 전문가가 주도하고 IT가 가이드하는 방식으로 충분할 수 있다. 부서 단위 자동화나 제한적인 시스템 연계는 공동 설계가 필요하다. 고객 대상 서비스, 가격·계약·결제·안전·개인정보와 연결된 액션은 업무 책임자의 승인과 IT 주도의 운영 구조가 필요하다.
@@ -88,7 +88,7 @@ AI는 앞의 두 단계에 대한 장벽을 빠르게 낮춘다. 하지만 운�
 
 산업 전문가는 단순히 “이런 기능이 필요하다”고 말하는 사람이 아니다. AI 에이전트가 무엇을 판단하고 어디까지 행동할지를 정하는 업무 정책의 소유자여야 한다.
 
-[![산업 전문가는 문제, 정책, 행동 권한, 성과 기준을 소유한다](/assets/images/role-split-03-domain-expert.png)](/assets/images/role-split-03-domain-expert.png)
+[![산업 전문가는 문제, 정책, 행동 권한, 성과 기준을 소유한다](/assets/images/role-split-03-domain-expert.png){: loading="lazy" decoding="async" width="1672" height="941"}](/assets/images/role-split-03-domain-expert.png)
 *그림 3. 산업 전문가는 문제, 정책, 행동 권한, 성과 기준을 소유한다 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 ### 1. 해결할 가치가 있는 문제를 정의한다
@@ -123,7 +123,7 @@ AI 시스템의 가치는 정보량이 아니라 다음의 연결에서 발생�
 
 AI가 코드를 생성해주는 시대에도 IT 전문성이 사라지는 것은 아니다. 오히려 IT 전문가의 역할은 코드 작성에서 실행 구조와 실패 통제로 이동한다.
 
-[![IT 전문가는 시스템 구조, 경계, 실패 통제, 권한과 운영 가능성을 설계한다](/assets/images/role-split-04-it-expert.png)](/assets/images/role-split-04-it-expert.png)
+[![IT 전문가는 시스템 구조, 경계, 실패 통제, 권한과 운영 가능성을 설계한다](/assets/images/role-split-04-it-expert.png){: loading="lazy" decoding="async" width="1672" height="941"}](/assets/images/role-split-04-it-expert.png)
 *그림 4. IT 전문가는 시스템 구조, 경계, 실패 통제, 권한과 운영 가능성을 설계한다 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 ### 1. 현업 유스케이스를 시스템 구조로 변환한다
@@ -162,7 +162,7 @@ AI 시대의 IT 전문성은 코드를 얼마나 많이 작성하는가보다 �
 
 산업 전문가가 요구사항을 넘기고 IT가 결과물을 전달하는 단순한 분업만으로는 충분하지 않다. AI 에이전트는 판단과 행동을 함께 다루기 때문에 문제 정의부터 평가와 확산까지 공동 설계가 필요하다.
 
-[![문제 발굴부터 확산과 개선까지 산업 전문성과 IT 전문성이 단계별로 결합되어야 한다](/assets/images/role-split-05-co-design.png)](/assets/images/role-split-05-co-design.png)
+[![문제 발굴부터 확산과 개선까지 산업 전문성과 IT 전문성이 단계별로 결합되어야 한다](/assets/images/role-split-05-co-design.png){: loading="lazy" decoding="async" width="1672" height="941"}](/assets/images/role-split-05-co-design.png)
 *그림 5. 문제 발굴부터 확산과 개선까지 산업 전문성과 IT 전문성이 단계별로 결합되어야 한다 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 공동 설계는 다음 순서로 진행할 수 있다.

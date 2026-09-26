@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 toc: true
 toc_sticky: true
+description: "문서를 그래프로 엮어 근거를 추적 가능하게 만든 GraphRAG 구축 기록."
 ---
 
 `Node.js + Airflow` · [저장소](https://github.com/quentinjeon/dag.graph.rag.airflow)

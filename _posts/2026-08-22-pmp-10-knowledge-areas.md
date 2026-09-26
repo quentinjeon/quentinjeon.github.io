@@ -54,7 +54,7 @@ PMP의 10대 지식영역은 프로젝트를 다음 열 가지 질문으로 바�
 
 ## 1. 프로젝트 통합관리: 전체를 하나로 맞추는 컨트롤타워
 
-[![PMP 01 프로젝트 통합관리 인포그래픽](/assets/images/pmp-01-integration.png)](/assets/images/pmp-01-integration.png)
+[![PMP 01 프로젝트 통합관리 인포그래픽](/assets/images/pmp-01-integration.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/pmp-01-integration.png)
 
 *그림 1. 프로젝트 전체 목표, 계획, 실행, 변경, 종료를 연결하는 통합관리 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
@@ -92,7 +92,7 @@ PMP의 10대 지식영역은 프로젝트를 다음 열 가지 질문으로 바�
 
 ## 2. 프로젝트 범위관리: 무엇을 하고 무엇을 하지 않을지 정한다
 
-[![PMP 02 프로젝트 범위관리 인포그래픽](/assets/images/pmp-02-scope.png)](/assets/images/pmp-02-scope.png)
+[![PMP 02 프로젝트 범위관리 인포그래픽](/assets/images/pmp-02-scope.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/pmp-02-scope.png)
 
 *그림 2. 요구사항을 범위·WBS·검수·변경통제로 연결하는 범위관리 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
@@ -141,7 +141,7 @@ WBS는 상위 범위의 전체 작업을 빠짐없이 포함하는 100% 규칙�
 
 ## 3. 프로젝트 일정관리: 날짜표가 아니라 의존관계의 설계
 
-[![PMP 03 프로젝트 일정관리 인포그래픽](/assets/images/pmp-03-schedule.png)](/assets/images/pmp-03-schedule.png)
+[![PMP 03 프로젝트 일정관리 인포그래픽](/assets/images/pmp-03-schedule.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/pmp-03-schedule.png)
 
 *그림 3. 활동·의존관계·기간·주공정·기준선을 연결하는 일정관리 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
@@ -184,7 +184,7 @@ Fast Tracking은 원래 순차적으로 해야 할 작업을 병렬화해 시간
 
 ## 4. 프로젝트 원가관리: 구축비보다 총비용을 본다
 
-[![PMP 04 프로젝트 원가관리 인포그래픽](/assets/images/pmp-04-cost.png)](/assets/images/pmp-04-cost.png)
+[![PMP 04 프로젝트 원가관리 인포그래픽](/assets/images/pmp-04-cost.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/pmp-04-cost.png)
 
 *그림 4. 원가산정·예산·기준선·집행·예측을 연결하는 원가관리 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
@@ -237,7 +237,7 @@ AI·AX 프로젝트에서는 개발비만 계산하면 안 됩니다.
 
 ## 5. 프로젝트 품질관리: ‘잘 만든 것’이 아니라 ‘합의한 기준을 충족한 것’
 
-[![PMP 05 프로젝트 품질관리 인포그래픽](/assets/images/pmp-05-quality.png)](/assets/images/pmp-05-quality.png)
+[![PMP 05 프로젝트 품질관리 인포그래픽](/assets/images/pmp-05-quality.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/pmp-05-quality.png)
 
 *그림 5. 품질기준·프로세스·테스트·결함·수용을 연결하는 품질관리 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
@@ -295,7 +295,7 @@ AI 시스템에서는 일반 기능 테스트만으로 부족합니다.
 
 ## 6. 프로젝트 자원관리: 사람뿐 아니라 장비·계정·환경까지 관리한다
 
-[![PMP 06 프로젝트 자원관리 인포그래픽](/assets/images/pmp-06-resource.png)](/assets/images/pmp-06-resource.png)
+[![PMP 06 프로젝트 자원관리 인포그래픽](/assets/images/pmp-06-resource.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/pmp-06-resource.png)
 
 *그림 6. 역할정의·자원산정·확보·배치·팀관리·통제를 연결하는 자원관리 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
@@ -353,7 +353,7 @@ I Informed     결과 통보 대상
 
 ## 7. 프로젝트 의사소통관리: 많이 말하는 것이 아니라 결정 가능하게 전달한다
 
-[![PMP 07 프로젝트 의사소통관리 인포그래픽](/assets/images/pmp-07-communication.png)](/assets/images/pmp-07-communication.png)
+[![PMP 07 프로젝트 의사소통관리 인포그래픽](/assets/images/pmp-07-communication.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/pmp-07-communication.png)
 
 *그림 7. 대상·메시지·채널·공유·피드백을 연결하는 의사소통관리 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
@@ -403,7 +403,7 @@ I Informed     결과 통보 대상
 
 ## 8. 프로젝트 리스크관리: 발생 전의 불확실성을 관리한다
 
-[![PMP 08 프로젝트 리스크관리 인포그래픽](/assets/images/pmp-08-risk.png)](/assets/images/pmp-08-risk.png)
+[![PMP 08 프로젝트 리스크관리 인포그래픽](/assets/images/pmp-08-risk.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/pmp-08-risk.png)
 
 *그림 8. 식별·분석·우선순위·대응·모니터링을 연결하는 리스크관리 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
@@ -451,7 +451,7 @@ I Informed     결과 통보 대상
 
 ## 9. 프로젝트 조달관리: 외부 의존성을 계약 가능한 수준으로 구체화한다
 
-[![PMP 09 프로젝트 조달관리 인포그래픽](/assets/images/pmp-09-procurement.png)](/assets/images/pmp-09-procurement.png)
+[![PMP 09 프로젝트 조달관리 인포그래픽](/assets/images/pmp-09-procurement.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/pmp-09-procurement.png)
 
 *그림 9. Make-or-Buy·요구사항·공급업체·계약·성과통제를 연결하는 조달관리 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
@@ -493,7 +493,7 @@ I Informed     결과 통보 대상
 
 ## 10. 프로젝트 이해관계자관리: 명단이 아니라 지지와 참여를 만든다
 
-[![PMP 10 프로젝트 이해관계자관리 인포그래픽](/assets/images/pmp-10-stakeholder.png)](/assets/images/pmp-10-stakeholder.png)
+[![PMP 10 프로젝트 이해관계자관리 인포그래픽](/assets/images/pmp-10-stakeholder.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/pmp-10-stakeholder.png)
 
 *그림 10. 이해관계자 식별·분석·참여전략·설득·조정을 연결하는 이해관계자관리 — 클릭하면 원본 크기로 볼 수 있습니다.*
 

@@ -35,7 +35,7 @@ Agent를 만들다 보면 결국 같은 질문에 도달합니다.
 
 먼저 큰 그림을 잡고, 이후 각 계층을 하나씩 내려갑니다.
 
-[![원천 시스템에서 분석·AI 활용까지의 전체 데이터 흐름](/assets/images/data-arch-01-overview.png)](/assets/images/data-arch-01-overview.png)
+[![원천 시스템에서 분석·AI 활용까지의 전체 데이터 흐름](/assets/images/data-arch-01-overview.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-01-overview.png)
 *그림 1. 원천 시스템에서 분석·AI 활용까지의 전체 데이터 흐름 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 > 한 줄 요약 원천 시스템의 데이터를 ETL/ELT로 수집·변환하고, Lake/Warehouse에 저장·통합한 뒤, 업무 목적별 Mart를 만들어 BI·ML·Agent가 활용한다.
@@ -48,7 +48,7 @@ Agent를 만들다 보면 결국 같은 질문에 도달합니다.
 
 데이터를 저장하고, 연결하고, 재사용하는 가장 기본적인 단위입니다.
 
-[![Table, Join, View의 관계](/assets/images/data-arch-02-table-join-view.png)](/assets/images/data-arch-02-table-join-view.png)
+[![Table, Join, View의 관계](/assets/images/data-arch-02-table-join-view.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-02-table-join-view.png)
 *그림 2. Table, Join, View의 관계 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 | 개념 | 정의 | Agent 관점 |
@@ -63,7 +63,7 @@ Agent를 만들다 보면 결국 같은 질문에 도달합니다.
 
 차이는 “Transform을 언제 수행하느냐”입니다.
 
-[![ETL과 ELT의 처리 순서 비교](/assets/images/data-arch-03-etl-elt.png)](/assets/images/data-arch-03-etl-elt.png)
+[![ETL과 ELT의 처리 순서 비교](/assets/images/data-arch-03-etl-elt.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-03-etl-elt.png)
 *그림 3. ETL과 ELT의 처리 순서 비교 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 - ETL: Extract → Transform → Load. 적재 전에 정제·변환한다.
@@ -76,7 +76,7 @@ Agent를 만들다 보면 결국 같은 질문에 도달합니다.
 
 원본 중심의 대규모·유연한 저장 계층입니다.
 
-[![Data Lake가 수용하는 다양한 데이터 형식](/assets/images/data-arch-04-data-lake.png)](/assets/images/data-arch-04-data-lake.png)
+[![Data Lake가 수용하는 다양한 데이터 형식](/assets/images/data-arch-04-data-lake.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-04-data-lake.png)
 *그림 4. Data Lake가 수용하는 다양한 데이터 형식 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 - CSV·JSON·로그뿐 아니라 PDF·이미지·음성·영상·센서 데이터까지 폭넓게 보관할 수 있다.
@@ -89,7 +89,7 @@ Agent를 만들다 보면 결국 같은 질문에 도달합니다.
 
 전사 데이터를 공통 기준으로 통합한 분석용 저장소입니다.
 
-[![여러 원천 데이터를 공통 기준으로 통합하는 Data Warehouse](/assets/images/data-arch-05-data-warehouse.png)](/assets/images/data-arch-05-data-warehouse.png)
+[![여러 원천 데이터를 공통 기준으로 통합하는 Data Warehouse](/assets/images/data-arch-05-data-warehouse.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-05-data-warehouse.png)
 *그림 5. 여러 원천 데이터를 공통 기준으로 통합하는 Data Warehouse — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 - 단순히 여러 DB를 한 곳에 복사하는 것이 아니라, 코드·ID·시간·단위·업무 기준을 표준화한다.
@@ -102,7 +102,7 @@ Agent를 만들다 보면 결국 같은 질문에 도달합니다.
 
 특정 부서·업무·분석 목적을 위해 가공된 데이터 영역입니다.
 
-[![Enterprise Data Warehouse에서 업무별 Data Mart로 분기](/assets/images/data-arch-06-data-mart.png)](/assets/images/data-arch-06-data-mart.png)
+[![Enterprise Data Warehouse에서 업무별 Data Mart로 분기](/assets/images/data-arch-06-data-mart.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-06-data-mart.png)
 *그림 6. Enterprise Data Warehouse에서 업무별 Data Mart로 분기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 - 예: marketing_daily 마트에는 날짜, 제품, 캠페인, 광고비, 주문수, 매출, ROAS처럼 마케팅 의사결정에 필요한 필드만 둔다.
@@ -115,7 +115,7 @@ Agent를 만들다 보면 결국 같은 질문에 도달합니다.
 
 분석 질의를 빠르고 이해하기 쉽게 만드는 대표적인 DW 모델링 방식입니다.
 
-[![fact_sales를 중심으로 Dimension이 연결되는 Star Schema](/assets/images/data-arch-07-star-schema.png)](/assets/images/data-arch-07-star-schema.png)
+[![fact_sales를 중심으로 Dimension이 연결되는 Star Schema](/assets/images/data-arch-07-star-schema.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-07-star-schema.png)
 *그림 7. fact_sales를 중심으로 Dimension이 연결되는 Star Schema — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 | 구성 | 역할 | 예 |
@@ -130,7 +130,7 @@ Agent를 만들다 보면 결국 같은 질문에 도달합니다.
 
 “배포한다”는 감각은 맞지만, 데이터 실무에서는 적재·갱신·Refresh·Publish라는 표현을 더 자주 씁니다.
 
-[![Full Refresh, Incremental, Batch, Streaming 비교](/assets/images/data-arch-08-refresh-modes.png)](/assets/images/data-arch-08-refresh-modes.png)
+[![Full Refresh, Incremental, Batch, Streaming 비교](/assets/images/data-arch-08-refresh-modes.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-08-refresh-modes.png)
 *그림 8. Full Refresh, Incremental, Batch, Streaming 비교 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 - Full Refresh: 기존 결과를 전체 재계산한다. 단순하지만 데이터가 크면 비용이 크다.
@@ -144,7 +144,7 @@ Agent를 만들다 보면 결국 같은 질문에 도달합니다.
 
 데이터 구조는 Agent가 세상을 보는 방식, Action 구조는 Agent가 세상에 개입하는 방식을 결정합니다.
 
-[![그림 9. 에이전트 구조 전체 흐름 — Data → State → Decision → Action → New State](/assets/images/data-arch-09-agent-flow.png)](/assets/images/data-arch-09-agent-flow.png)
+[![그림 9. 에이전트 구조 전체 흐름 — Data → State → Decision → Action → New State](/assets/images/data-arch-09-agent-flow.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-09-agent-flow.png)
 *그림 9. 에이전트 구조 전체 흐름 — Data → State → Decision → Action → New State — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 - Data Layer: Lake, Warehouse, Mart, View, API 등을 통해 신뢰 가능한 데이터를 제공한다.
@@ -159,13 +159,13 @@ Agent를 만들다 보면 결국 같은 질문에 도달합니다.
 
 위 루프에서 실제 설계가 갈리는 지점은 세 곳입니다. **무엇을 상태로 볼 것인가**, **그 상태에서 무엇을 허용할 것인가**, 그리고 **허용된 것을 어떻게 실행할 것인가**입니다.
 
-[![그림 9-1. State / Context와 Agent Mart — 원천을 다 뒤지지 않고 판단에 필요한 상태만 구조화한다](/assets/images/data-arch-10-state-context.png)](/assets/images/data-arch-10-state-context.png)
+[![그림 9-1. State / Context와 Agent Mart — 원천을 다 뒤지지 않고 판단에 필요한 상태만 구조화한다](/assets/images/data-arch-10-state-context.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-10-state-context.png)
 *그림 9-1. State / Context와 Agent Mart — 원천을 다 뒤지지 않고 판단에 필요한 상태만 구조화한다 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
-[![그림 9-2. Decision과 Allowed Actions — 모든 행동이 아니라 현재 허용된 행동만 좁혀 고른다](/assets/images/data-arch-11-decision-allowed-actions.png)](/assets/images/data-arch-11-decision-allowed-actions.png)
+[![그림 9-2. Decision과 Allowed Actions — 모든 행동이 아니라 현재 허용된 행동만 좁혀 고른다](/assets/images/data-arch-11-decision-allowed-actions.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-11-decision-allowed-actions.png)
 *그림 9-2. Decision과 Allowed Actions — 모든 행동이 아니라 현재 허용된 행동만 좁혀 고른다 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
-[![그림 9-3. Action / Tool 실행 구조 — 결정이 실제 시스템 변경으로 이어지는 지점](/assets/images/data-arch-12-action-tool.png)](/assets/images/data-arch-12-action-tool.png)
+[![그림 9-3. Action / Tool 실행 구조 — 결정이 실제 시스템 변경으로 이어지는 지점](/assets/images/data-arch-12-action-tool.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-12-action-tool.png)
 *그림 9-3. Action / Tool 실행 구조 — 결정이 실제 시스템 변경으로 이어지는 지점 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 > 가장 중요한 문장 Table · Join · View · Mart는 Agent가 세상을 “어떻게 볼 것인가”를 설계하는 문제이고, Tool · Action은 Agent가 세상에 “무엇을 할 수 있는가”를 설계하는 문제다.
@@ -174,7 +174,7 @@ Agent를 만들다 보면 결국 같은 질문에 도달합니다.
 
 Raw Data를 그대로 LLM에 던지는 대신, 업무 상태와 행동공간을 구조화합니다.
 
-[![그림 10. 건설 하자 Agent — 접수부터 상태 갱신까지 Data → State → Decision → Action](/assets/images/data-arch-13-defect-agent-example.png)](/assets/images/data-arch-13-defect-agent-example.png)
+[![그림 10. 건설 하자 Agent — 접수부터 상태 갱신까지 Data → State → Decision → Action](/assets/images/data-arch-13-defect-agent-example.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-13-defect-agent-example.png)
 *그림 10. 건설 하자 Agent — 접수부터 상태 갱신까지 Data → State → Decision → Action — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 | 레이어 | 예시 | 설계 포인트 |
@@ -204,7 +204,7 @@ Raw Data를 그대로 LLM에 던지는 대신, 업무 상태와 행동공간을 
 
 > 전체 루프 Observation/Data → State/Context → Policy/Decision → Allowed Actions → Tool Execution → Event/Log → New State. 이 루프가 기업용 Agent의 기본 동작 구조다.
 
-[![그림 11. Feedback Loop와 운영 로그 — 실행 결과가 다시 데이터가 되어 다음 판단을 바꾼다](/assets/images/data-arch-14-feedback-loop.png)](/assets/images/data-arch-14-feedback-loop.png)
+[![그림 11. Feedback Loop와 운영 로그 — 실행 결과가 다시 데이터가 되어 다음 판단을 바꾼다](/assets/images/data-arch-14-feedback-loop.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/data-arch-14-feedback-loop.png)
 *그림 11. Feedback Loop와 운영 로그 — 실행 결과가 다시 데이터가 되어 다음 판단을 바꾼다 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 ## 11. 실제 Agent 설계 시 체크리스트

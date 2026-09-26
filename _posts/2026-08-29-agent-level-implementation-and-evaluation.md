@@ -30,7 +30,7 @@ header:
 
 ## 16단계. Typed Handoff와 전환 계약 구현하기
 
-[![16단계. Typed Handoff와 전환 계약 구현하기](/assets/images/agent-level-step-16-typed-handoff-contract.png)](/assets/images/agent-level-step-16-typed-handoff-contract.png)
+[![16단계. Typed Handoff와 전환 계약 구현하기](/assets/images/agent-level-step-16-typed-handoff-contract.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-16-typed-handoff-contract.png)
 *16단계. Typed Handoff와 전환 계약 구현하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 Skill·Delegation·Human처럼 실행 경계가 바뀌면 자연어 한 문장 대신 Governance Transition Contract를 전달한다.
@@ -76,7 +76,7 @@ Typed Handoff의 목적은 문장을 길게 만드는 것이 아니다. Runtime�
 
 ## 17단계. Compiler·Router·Runtime·Verifier를 실행 논리로 연결하기
 
-[![17단계. Compiler·Router·Runtime·Verifier 연결하기](/assets/images/agent-level-step-17-compiler-router-runtime-verifier.png)](/assets/images/agent-level-step-17-compiler-router-runtime-verifier.png)
+[![17단계. Compiler·Router·Runtime·Verifier 연결하기](/assets/images/agent-level-step-17-compiler-router-runtime-verifier.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-17-compiler-router-runtime-verifier.png)
 *17단계. Compiler·Router·Runtime·Verifier 연결하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 전체 알고리즘은 다음 루프로 정리할 수 있다.
@@ -103,7 +103,7 @@ Runtime 재검사는 선택 시점과 사용 시점 사이 상태가 바뀌는 T
 
 ## 18단계. 작은 MVP와 시뮬레이터 만들기
 
-[![18단계. 작은 MVP와 시뮬레이터 만들기](/assets/images/agent-level-step-18-mvp-simulator.png)](/assets/images/agent-level-step-18-mvp-simulator.png)
+[![18단계. 작은 MVP와 시뮬레이터 만들기](/assets/images/agent-level-step-18-mvp-simulator.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-18-mvp-simulator.png)
 *18단계. 작은 MVP와 시뮬레이터 만들기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 첫 MVP는 모든 기업 업무를 다루지 않는다. 제조·품질의 **지연 주문 출하 가능성 판단** 하나로 범위를 좁힌다. 이 시나리오는 반복 조회, 검증된 Skill, 전문 Agent, 관리자 승인, 정책 blocker, 동적 수준 전환을 한 흐름에 담을 수 있다.
@@ -125,7 +125,7 @@ Runtime 재검사는 선택 시점과 사용 시점 사이 상태가 바뀌는 T
 
 ## 19단계. Benchmark와 평가 지표 설계하기
 
-[![19단계. Benchmark와 평가 지표 설계하기](/assets/images/agent-level-step-19-benchmark-metrics.png)](/assets/images/agent-level-step-19-benchmark-metrics.png)
+[![19단계. Benchmark와 평가 지표 설계하기](/assets/images/agent-level-step-19-benchmark-metrics.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-19-benchmark-metrics.png)
 *19단계. Benchmark와 평가 지표 설계하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 성공률 하나로 Agent 품질을 평가하면 왜곡이 생긴다. 모든 업무를 비싼 전문 Agent에게 넘겨도 성공률은 높을 수 있고, 모든 요청을 거절하면 정책 위반은 0이 될 수 있다.
@@ -160,7 +160,7 @@ $$
 
 ## 20단계. Baseline·실험·통계·발표까지 완성하기
 
-[![20단계. Baseline·실험·통계·발표 완성하기](/assets/images/agent-level-step-20-baselines-experiments-statistics.png)](/assets/images/agent-level-step-20-baselines-experiments-statistics.png)
+[![20단계. Baseline·실험·통계·발표 완성하기](/assets/images/agent-level-step-20-baselines-experiments-statistics.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-20-baselines-experiments-statistics.png)
 *20단계. Baseline·실험·통계·발표 완성하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 최종 단계에서는 제안 구조가 단순한 구성요소 조합을 넘어 독립적인 효과를 만드는지 검증한다.

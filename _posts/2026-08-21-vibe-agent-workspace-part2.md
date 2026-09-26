@@ -32,7 +32,7 @@ header:
 
 ---
 
-[![Vibe Agent Workspace v2 아키텍처 한눈에 보기](/assets/images/vibe-agent-v2-00-overview.png)](/assets/images/vibe-agent-v2-00-overview.png)
+[![Vibe Agent Workspace v2 아키텍처 한눈에 보기](/assets/images/vibe-agent-v2-00-overview.png){: loading="lazy" decoding="async" width="1024" height="1536"}](/assets/images/vibe-agent-v2-00-overview.png)
 *Vibe Agent Workspace v2 전체 아키텍처 — 설계 원칙 · 디렉터리 구조 · 역할 · Tool 권한 · 실행 격리 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 
@@ -165,7 +165,7 @@ Handoff
 
 ## 01. Agent 폴더는 “정의”, Runtime 폴더는 “실행”
 
-[![01. 폴더 구조 상세 — 정의(불변)와 실행(가변)의 분리](/assets/images/vibe-agent-v2-01-folder-architecture.png)](/assets/images/vibe-agent-v2-01-folder-architecture.png)
+[![01. 폴더 구조 상세 — 정의(불변)와 실행(가변)의 분리](/assets/images/vibe-agent-v2-01-folder-architecture.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/vibe-agent-v2-01-folder-architecture.png)
 *01. 폴더 구조 상세 — 정의(불변)와 실행(가변)의 분리 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 가장 먼저 수정한 부분이다.
@@ -287,7 +287,7 @@ run-003
 
 ## 02. Tool은 한 번만 만들고, Agent는 권한만 선언한다
 
-[![02. Tool 정의와 권한 구조 — 구현은 중앙에, 권한은 Agent 에](/assets/images/vibe-agent-v2-02-tool-permission.png)](/assets/images/vibe-agent-v2-02-tool-permission.png)
+[![02. Tool 정의와 권한 구조 — 구현은 중앙에, 권한은 Agent 에](/assets/images/vibe-agent-v2-02-tool-permission.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/vibe-agent-v2-02-tool-permission.png)
 *02. Tool 정의와 권한 구조 — 구현은 중앙에, 권한은 Agent 에 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 두 번째로 중요하게 본 것은 Tool이다.
@@ -424,7 +424,7 @@ production 배포 = 사람 승인 필요
 
 ## 03. Agent 간 협업의 핵심은 Task · Artifact · Handoff
 
-[![03. Task · Artifact · Handoff 스키마](/assets/images/vibe-agent-v2-03-task-artifact-handoff.png)](/assets/images/vibe-agent-v2-03-task-artifact-handoff.png)
+[![03. Task · Artifact · Handoff 스키마](/assets/images/vibe-agent-v2-03-task-artifact-handoff.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/vibe-agent-v2-03-task-artifact-handoff.png)
 *03. Task · Artifact · Handoff 스키마 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 이번 시스템에서 가장 중요하게 생각한 부분 중 하나다.
@@ -561,7 +561,7 @@ Task → Artifact → Handoff → Task
 
 ## 04. 실행 흐름은 “Agent 대화”가 아니라 상태 머신으로 관리한다
 
-[![04. 실행 흐름과 상태 머신](/assets/images/vibe-agent-v2-04-execution-flow.png)](/assets/images/vibe-agent-v2-04-execution-flow.png)
+[![04. 실행 흐름과 상태 머신](/assets/images/vibe-agent-v2-04-execution-flow.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/vibe-agent-v2-04-execution-flow.png)
 *04. 실행 흐름과 상태 머신 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 이제 시스템이 실제로 움직이는 모습을 보자.
@@ -717,7 +717,7 @@ run.completed
 
 ## 05. 그래서 MVP는 무엇부터 만들어야 할까?
 
-[![05. MVP 구현 로드맵과 운영](/assets/images/vibe-agent-v2-05-mvp-roadmap.png)](/assets/images/vibe-agent-v2-05-mvp-roadmap.png)
+[![05. MVP 구현 로드맵과 운영](/assets/images/vibe-agent-v2-05-mvp-roadmap.png){: loading="lazy" decoding="async" width="1254" height="1254"}](/assets/images/vibe-agent-v2-05-mvp-roadmap.png)
 *05. MVP 구현 로드맵과 운영 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 여기까지 설계하다 보면 욕심이 생긴다.

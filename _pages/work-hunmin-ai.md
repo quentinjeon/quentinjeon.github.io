@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 toc: true
 toc_sticky: true
+description: "한국어 문서 처리에 맞춘 AI 서비스 구축 기록 — 훈민 AI 프로젝트."
 ---
 
 `Next.js 14 + FastAPI` · [저장소](https://github.com/quentinjeon/hunminai)

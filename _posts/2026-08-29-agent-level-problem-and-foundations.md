@@ -91,7 +91,7 @@ Verifier
 
 ## 1단계. 논문의 중심 질문을 한 문장으로 고정하기
 
-[![1단계. 논문의 중심 질문을 한 문장으로 고정하기](/assets/images/agent-level-step-01-core-question.png)](/assets/images/agent-level-step-01-core-question.png)
+[![1단계. 논문의 중심 질문을 한 문장으로 고정하기](/assets/images/agent-level-step-01-core-question.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/agent-level-step-01-core-question.png)
 *1단계. 논문의 중심 질문을 한 문장으로 고정하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 **핵심은 행동 선택을 두 층으로 분해하는 것이다.** 기존 Agent는 대개 “무엇을 할 것인가?”를 묻는다. 이 논문은 그보다 먼저 “Tool, Skill, Delegation, Human, Control 중 어느 수준에서 행동할 것인가?”를 묻는다.
@@ -103,7 +103,7 @@ Verifier
 
 ## 2단계. 다섯 가지 행동 수준 구분하기
 
-[![2단계. 다섯 가지 행동 수준 구분하기](/assets/images/agent-level-step-02-five-action-levels.png)](/assets/images/agent-level-step-02-five-action-levels.png)
+[![2단계. 다섯 가지 행동 수준 구분하기](/assets/images/agent-level-step-02-five-action-levels.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/agent-level-step-02-five-action-levels.png)
 *2단계. 다섯 가지 행동 수준 구분하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 다섯 수준은 이름만 다른 API가 아니다. 실행 시간, 자율성, 책임 주체, 권한, 비용, 위험이 서로 다르다.
@@ -119,7 +119,7 @@ Verifier
 
 ## 3단계. 전체 아키텍처를 한 장으로 이해하기
 
-[![3단계. 전체 아키텍처를 한 장으로 이해하기](/assets/images/agent-level-step-03-architecture.png)](/assets/images/agent-level-step-03-architecture.png)
+[![3단계. 전체 아키텍처를 한 장으로 이해하기](/assets/images/agent-level-step-03-architecture.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/agent-level-step-03-architecture.png)
 *3단계. 전체 아키텍처를 한 장으로 이해하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 제안 구조의 책임 경계는 명확하다.
@@ -136,7 +136,7 @@ Verifier
 
 ## 4단계. 세 가지 정책 보존 불변조건 이해하기
 
-[![4단계. 세 가지 정책 보존 불변조건 이해하기](/assets/images/agent-level-step-04-policy-invariants.png)](/assets/images/agent-level-step-04-policy-invariants.png)
+[![4단계. 세 가지 정책 보존 불변조건 이해하기](/assets/images/agent-level-step-04-policy-invariants.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/agent-level-step-04-policy-invariants.png)
 *4단계. 세 가지 정책 보존 불변조건 이해하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 Skill이나 다른 Agent로 실행을 넘길 때 다음 세 성질이 유지돼야 한다.
@@ -158,7 +158,7 @@ Skill이나 다른 Agent로 실행을 넘길 때 다음 세 성질이 유지돼�
 
 ## 5단계. 추상화와 행동 집합 이해하기
 
-[![5단계. 추상화와 행동 집합 이해하기](/assets/images/agent-level-step-05-abstraction-action-space.png)](/assets/images/agent-level-step-05-abstraction-action-space.png)
+[![5단계. 추상화와 행동 집합 이해하기](/assets/images/agent-level-step-05-abstraction-action-space.png){: loading="lazy" decoding="async" width="1448" height="1086"}](/assets/images/agent-level-step-05-abstraction-action-space.png)
 *5단계. 추상화와 행동 집합 이해하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 전체 행동 공간은 다섯 수준의 합집합이다.

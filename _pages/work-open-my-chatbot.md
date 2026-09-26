@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 toc: true
 toc_sticky: true
+description: "누구나 자기 문서로 챗봇을 만들 수 있게 한 오픈 챗봇 프로젝트 기록."
 ---
 
 `Python + LangGraph` · [저장소](https://github.com/quentinjeon/open-my-chatbot)

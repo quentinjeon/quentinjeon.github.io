@@ -64,7 +64,7 @@ header:
 
 첫 장은 광고상품 설명이 아니라 네이버 전체 Surface Taxonomy를 잡는 장이다.
 
-[![네이버 광고 구좌 마스터맵 — 11개 Surface Cluster](/assets/images/naver-ads-01-master-map.png)](/assets/images/naver-ads-01-master-map.png)
+[![네이버 광고 구좌 마스터맵 — 11개 Surface Cluster](/assets/images/naver-ads-01-master-map.png){: loading="lazy" decoding="async" width="1672" height="941"}](/assets/images/naver-ads-01-master-map.png)
 *네이버 광고 구좌 마스터맵 — 11개 Surface Cluster — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 *개념도. 실제 UI 캡처가 아니며, 각 지면의 노출 여부와 위치·개수는 운영정책에 따라 변동 가능.*
@@ -106,7 +106,7 @@ header:
 
 Search Surface는 “통합검색 상단” 하나가 아니라 검색탭·브랜드검색·AI 브리핑·콘텐츠 확장·외부 검색 파트너까지 이어진다.
 
-[![검색 구좌 상세 지도 — 파워링크 · 브랜드검색 · AI 브리핑](/assets/images/naver-ads-02-search.png)](/assets/images/naver-ads-02-search.png)
+[![검색 구좌 상세 지도 — 파워링크 · 브랜드검색 · AI 브리핑](/assets/images/naver-ads-02-search.png){: loading="lazy" decoding="async" width="1672" height="941"}](/assets/images/naver-ads-02-search.png)
 *검색 구좌 상세 지도 — 파워링크 · 브랜드검색 · AI 브리핑 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 *파워링크·브랜드검색·ADVoost Max를 실제 검색/확장 Surface 관점에서 분리한 개념도.*
@@ -154,7 +154,7 @@ ADVoost Max의 핵심 Surface는 AI 브리핑이다. 네이버 AI 에이전트�
 
 상품광고는 검색결과에서 끝나지 않고 N+스토어·상품상세·메인·콘텐츠·네이버페이까지 이어진다.
 
-[![쇼핑·커머스 구좌 상세 지도 — 검색에서 페이까지](/assets/images/naver-ads-03-shopping-commerce.png)](/assets/images/naver-ads-03-shopping-commerce.png)
+[![쇼핑·커머스 구좌 상세 지도 — 검색에서 페이까지](/assets/images/naver-ads-03-shopping-commerce.png){: loading="lazy" decoding="async" width="1672" height="941"}](/assets/images/naver-ads-03-shopping-commerce.png)
 *쇼핑·커머스 구좌 상세 지도 — 검색에서 페이까지 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 *이미지는 2026.09.02 기준. 2026.09.03 모바일 통합검색 쇼핑 컬렉션 개편 사항은 아래 최신화 박스 참조.*
@@ -214,7 +214,7 @@ ADVoost Max의 핵심 Surface는 AI 브리핑이다. 네이버 AI 에이전트�
 
 검색 의도가 아직 없거나 약한 고객을 Reach·Discovery·Context 기반으로 포착하는 영역이다.
 
-[![메인·콘텐츠·커뮤니티 구좌 상세 지도](/assets/images/naver-ads-04-main-content-community.png)](/assets/images/naver-ads-04-main-content-community.png)
+[![메인·콘텐츠·커뮤니티 구좌 상세 지도](/assets/images/naver-ads-04-main-content-community.png){: loading="lazy" decoding="async" width="1672" height="941"}](/assets/images/naver-ads-04-main-content-community.png)
 *메인·콘텐츠·커뮤니티 구좌 상세 지도 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 *성과형 DA의 세부 게재위치는 공식 노출 지면 가이드에서 지속적으로 추가·변경되며, 콘텐츠 구성에 따라 실제 위치·개수가 달라질 수 있다.*
@@ -260,7 +260,7 @@ ADVoost Max의 핵심 Surface는 AI 브리핑이다. 네이버 AI 에이전트�
 
 네이버의 “기능형 서비스”도 광고 Surface이며, 장소광고·일반 DA·상품추천은 서로 다른 상품이다.
 
-[![플레이스·지도·페이·유틸리티 구좌 상세 지도](/assets/images/naver-ads-05-place-pay-utility.png)](/assets/images/naver-ads-05-place-pay-utility.png)
+[![플레이스·지도·페이·유틸리티 구좌 상세 지도](/assets/images/naver-ads-05-place-pay-utility.png){: loading="lazy" decoding="async" width="1672" height="941"}](/assets/images/naver-ads-05-place-pay-utility.png)
 *플레이스·지도·페이·유틸리티 구좌 상세 지도 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 *플레이스 광고와 지도 서비스 내 일반 DA를 구분하고, 결제 이후 Pay 추천 및 금융/유틸리티 Surface를 함께 보여주는 개념도.*
@@ -295,7 +295,7 @@ ADVoost Max의 핵심 Surface는 AI 브리핑이다. 네이버 AI 에이전트�
 
 네이버 광고의 외곽 범위: 영상 소비, 패밀리 서비스, 외부 파트너, 그리고 대형 보장형 브랜딩.
 
-[![동영상·패밀리·외부·프리미엄 구좌 상세 지도](/assets/images/naver-ads-06-video-family-premium.png)](/assets/images/naver-ads-06-video-family-premium.png)
+[![동영상·패밀리·외부·프리미엄 구좌 상세 지도](/assets/images/naver-ads-06-video-family-premium.png){: loading="lazy" decoding="async" width="1672" height="941"}](/assets/images/naver-ads-06-video-family-premium.png)
 *동영상·패밀리·외부·프리미엄 구좌 상세 지도 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 *내부 서비스와 외부 파트너, 성과형과 보장형을 마지막에 분리해 설명하는 마감 장.*

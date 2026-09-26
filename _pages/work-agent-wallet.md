@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 toc: true
 toc_sticky: true
+description: "에이전트가 스스로 비용을 집행할 때 한도와 승인을 어떻게 설계할 것인가 — Agent Wallet 프로젝트 기록."
 ---
 
 `Python 3.12` · 비공개

@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 toc: true
 toc_sticky: true
+description: "OpenClaw 프로젝트 — 에이전트가 외부 도구를 안전하게 호출하도록 만든 구조 기록."
 ---
 
 [![OpenClaw 대시보드](/assets/images/cards/openclaw.jpg)](/assets/images/cards/openclaw.jpg)

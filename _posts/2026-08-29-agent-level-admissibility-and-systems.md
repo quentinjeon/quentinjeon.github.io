@@ -30,7 +30,7 @@ header:
 
 ## 6단계. 논리식과 F/A/C/V 판정 이해하기
 
-[![6단계. 논리식과 F/A/C/V 판정 이해하기](/assets/images/agent-level-step-06-facv-admissibility.png)](/assets/images/agent-level-step-06-facv-admissibility.png)
+[![6단계. 논리식과 F/A/C/V 판정 이해하기](/assets/images/agent-level-step-06-facv-admissibility.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-06-facv-admissibility.png)
 *6단계. 논리식과 F/A/C/V 판정 이해하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 행동의 허용 여부는 네 조건의 논리곱으로 표현할 수 있다.
@@ -53,7 +53,7 @@ $$
 
 ## 7단계. 확률·효용·가중치·argmax 이해하기
 
-[![7단계. 확률·효용·가중치·argmax 이해하기](/assets/images/agent-level-step-07-utility-argmax.png)](/assets/images/agent-level-step-07-utility-argmax.png)
+[![7단계. 확률·효용·가중치·argmax 이해하기](/assets/images/agent-level-step-07-utility-argmax.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-07-utility-argmax.png)
 *7단계. 확률·효용·가중치·argmax 이해하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 성공 확률이 가장 높은 행동이 항상 최적은 아니다. 비용, 위험, 인수인계 부담, 권한 노출, 불확실성을 함께 봐야 한다.
@@ -83,7 +83,7 @@ $$
 
 ## 8단계. 그래프·부분집합·귀납법·기초 통계 익히기
 
-[![8단계. 그래프·부분집합·귀납법·기초 통계 익히기](/assets/images/agent-level-step-08-graph-induction-statistics.png)](/assets/images/agent-level-step-08-graph-induction-statistics.png)
+[![8단계. 그래프·부분집합·귀납법·기초 통계 익히기](/assets/images/agent-level-step-08-graph-induction-statistics.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-08-graph-induction-statistics.png)
 *8단계. 그래프·부분집합·귀납법·기초 통계 익히기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 조직 구조와 실행 이력은 그래프로 표현할 수 있다.
@@ -110,7 +110,7 @@ $$
 
 ## 9단계. Data·State·Event·Command·Effect 구분하기
 
-[![9단계. Data·State·Event·Command·Effect 구분하기](/assets/images/agent-level-step-09-data-state-event-command-effect.png)](/assets/images/agent-level-step-09-data-state-event-command-effect.png)
+[![9단계. Data·State·Event·Command·Effect 구분하기](/assets/images/agent-level-step-09-data-state-event-command-effect.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-09-data-state-event-command-effect.png)
 *9단계. Data·State·Event·Command·Effect 구분하기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 | 개념 | 정의 | 주문 업무 예 |
@@ -128,7 +128,7 @@ $$
 
 ## 10단계. 상태기계와 Tool 계약 만들기
 
-[![10단계. 상태기계와 Tool 계약 만들기](/assets/images/agent-level-step-10-state-machine-tool-contract.png)](/assets/images/agent-level-step-10-state-machine-tool-contract.png)
+[![10단계. 상태기계와 Tool 계약 만들기](/assets/images/agent-level-step-10-state-machine-tool-contract.png){: loading="lazy" decoding="async" width="1800" height="1350"}](/assets/images/agent-level-step-10-state-machine-tool-contract.png)
 *10단계. 상태기계와 Tool 계약 만들기 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 상태기계는 허용된 전이와 금지 전이를 명시한다.
