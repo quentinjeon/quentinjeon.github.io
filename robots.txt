@@ -3,19 +3,22 @@ layout: none
 permalink: /robots.txt
 sitemap: false
 ---
-# 모든 크롤러 허용 — AI 검색엔진 포함. 막고 싶은 경로가 생기면 여기에 Disallow 를 추가한다.
+# 모든 크롤러 허용 — AI 검색엔진 포함.
+# 주의: Disallow 는 바로 위 User-agent 그룹에만 적용된다. 그룹 안에 함께 적어야 한다.
 User-agent: *
 Allow: /
+Disallow: /assets/js/
+Disallow: /404.html
 
-# 국내 검색엔진은 와일드카드로도 수집되지만, 각 사의 검증 도구가
-# 자사 크롤러 항목을 직접 확인하는 경우가 있어 명시해 둔다.
+# 국내 검색엔진은 위 와일드카드로도 수집되지만, 각 사의 검증 도구가
+# 자사 크롤러 항목을 직접 확인하는 경우가 있어 같은 규칙을 명시해 둔다.
 User-agent: Yeti
 Allow: /
+Disallow: /assets/js/
+Disallow: /404.html
 
 User-agent: Daumoa
 Allow: /
-
-# 검색 결과에 의미 없는 내부 경로
 Disallow: /assets/js/
 Disallow: /404.html
 
