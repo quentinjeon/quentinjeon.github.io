@@ -26,6 +26,12 @@
       btn.disabled = true;
       say('전송 중…', '');
 
+      /* 고른 관심 분야. 하나도 안 고르면 공통으로 본다. */
+      var picked = [];
+      var boxes = form.querySelectorAll('input[name=domain]:checked');
+      for (var i = 0; i < boxes.length; i++) picked.push(boxes[i].value);
+      if (!picked.length) picked = ['AX 공통'];
+
       fetch(endpoint, {
         method: 'POST',
         mode: 'no-cors',
@@ -35,6 +41,7 @@
           phone: form.phone ? form.phone.value.trim() : '',
           consent: true,
           marketing: form.marketing ? form.marketing.checked : false,
+          domains: picked.join('·'),
           website: form.website.value,
           source: location.pathname
         })

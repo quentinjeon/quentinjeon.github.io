@@ -23,6 +23,20 @@
       </label>
     </div>
 
+
+    <fieldset class="nldom">
+      <legend class="nldom__legend">관심 분야 <i>선택 · 여러 개 가능</i></legend>
+      <div class="nldom__opts">
+        {%- for d in site.data.newsletter_domains %}
+        <label class="nldom__chip">
+          <input type="checkbox" name="domain" value="{{ d }}">
+          <span>{{ d }}</span>
+        </label>
+        {%- endfor %}
+      </div>
+      <p class="nldom__hint">고르지 않으시면 <b>AX 공통</b> 으로 보내드립니다.</p>
+    </fieldset>
+
     <label class="nlbox__consent">
       <input type="checkbox" name="consent" required>
       <span><b>[필수]</b> 개인정보 수집·이용에 동의합니다.

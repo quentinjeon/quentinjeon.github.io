@@ -82,6 +82,19 @@
 .nlbox__consent+.nlbox__consent{margin-top:-.5em}
 .nlbox__consent a{text-decoration:underline}
 .nlbox__hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.nldom{border:0;padding:0;margin:0 0 1em;min-width:0}
+.nldom__legend{padding:0;font-size:.78em;font-weight:700;color:#4b5563;margin-bottom:.45em}
+.nldom__legend i{font-style:normal;font-weight:400;color:#8b939c}
+.nldom__opts{display:flex;flex-wrap:wrap;gap:.4em}
+.nldom__chip{position:relative;cursor:pointer}
+.nldom__chip input{position:absolute;opacity:0;width:0;height:0}
+.nldom__chip span{display:block;padding:.38em .85em;font-size:.82em;font-weight:600;color:#5b6470;
+  border:1px solid #d5d9de;border-radius:999px;background:#fff;transition:.12s;white-space:nowrap}
+.nldom__chip span:hover{border-color:#9aa3ad;color:#4b5563}
+.nldom__chip input:checked+span{background:#1a4b8c;border-color:#1a4b8c;color:#fff}
+.nldom__chip input:focus-visible+span{outline:2px solid #1a4b8c;outline-offset:2px}
+.nldom__hint{font-size:.76em;color:#8b939c;margin:.5em 0 0}
+.nldom__hint b{font-weight:700;color:#5b6470}
 .nlbox__submit{padding:.62em 1.5em;font-size:.92em;font-weight:700;border:0;border-radius:6px;
       background:#1a4b8c;color:#fff;cursor:pointer}
 .nlbox__submit:hover{background:#15407a}
