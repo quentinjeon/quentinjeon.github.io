@@ -4,6 +4,11 @@
    실제 수신 확인은 Apps Script 가 보내는 메일 알림으로 한다. */
 (function () {
 
+  /* GA4 이벤트. gtag 가 없을 수도 있으므로(로컬·광고차단) 항상 존재 확인 후 호출한다. */
+  function track(name, params) {
+    if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+  }
+
   /* ── 공통 제출 처리 ──────────────────────────────
      본문 하단 폼(.nlbox)과 팝업 폼(.nlpop)이 같이 쓴다.
      팝업 폼에는 전화번호·광고동의 칸이 없으므로 있는 것만 읽는다. */
@@ -48,9 +53,15 @@
       }).then(function () {
         form.reset();
         say('구독 신청이 접수됐습니다. 감사합니다.', 'is-ok');
+        track('nl_subscribe', {
+          form_location: form.closest('.nlpop') ? 'popup' : 'inline',
+          domains: picked.join('·'),
+          marketing_consent: form.marketing ? form.marketing.checked : false
+        });
         form.dispatchEvent(new CustomEvent('nl:success', { bubbles: true }));
       }).catch(function () {
         say('전송에 실패했습니다. 잠시 후 다시 시도해 주세요.', 'is-err');
+        track('nl_subscribe_error', { form_location: form.closest('.nlpop') ? 'popup' : 'inline' });
       }).then(function () {
         btn.disabled = false;
       });
@@ -97,6 +108,7 @@
       shown = true;
       lastFocus = document.activeElement;
       pop.hidden = false;
+      track('nl_popup_shown');
       var input = pop.querySelector('input[name=email]');
       if (input) input.focus();
       window.removeEventListener('scroll', onScroll);
@@ -104,6 +116,7 @@
 
     function close(done) {
       pop.hidden = true;
+      if (!done) track('nl_popup_dismissed');
       set(done ? KEY_DONE : KEY_SNOOZE, done ? '1' : String(Date.now()));
       if (lastFocus && lastFocus.focus) lastFocus.focus();
     }
