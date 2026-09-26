@@ -58,5 +58,36 @@
       padding:2px 7px;border-radius:99px;white-space:nowrap}
 .seriesnav .seriesnav__soon{font-size:11px;color:#8b939c;background:#eef0f2;
       padding:2px 7px;border-radius:99px;white-space:nowrap}
+
+/* ── 뉴스레터 구독 박스 ─────────────────────────────── */
+.nlbox{border:1px solid #e0e2e5;border-radius:10px;padding:1.4em 1.5em;margin:2.5em 0 1em;
+      background:linear-gradient(180deg,#f8fafc 0%,#fff 60%)}
+.nlbox__eyebrow{font-size:.72em;font-weight:700;letter-spacing:.08em;color:#1a4b8c;
+      text-transform:uppercase;margin:0 0 .25em}
+.nlbox__title{font-size:1.18em;font-weight:800;line-height:1.4;margin:0 0 .3em;color:#1b1f24;word-break:keep-all}
+.nlbox__desc{font-size:.88em;color:#5b6470;line-height:1.6;margin:0 0 1.1em;word-break:keep-all}
+.nlbox__row{display:flex;gap:.8em;flex-wrap:wrap;margin-bottom:.8em}
+.nlbox__field{flex:1 1 220px;display:flex;flex-direction:column;gap:.3em}
+.nlbox__field>span{font-size:.78em;font-weight:700;color:#4b5563}
+.nlbox__field b{color:#c2410c}
+.nlbox__field i{font-style:normal;font-weight:400;color:#8b939c}
+.nlbox__field input{width:100%;padding:.62em .75em;font-size:.92em;border:1px solid #d5d9de;
+      border-radius:6px;background:#fff;color:#1b1f24}
+.nlbox__field input:focus{outline:2px solid #1a4b8c;outline-offset:1px;border-color:#1a4b8c}
+.nlbox__consent{display:flex;gap:.55em;align-items:flex-start;font-size:.84em;color:#4b5563;
+      line-height:1.55;margin-bottom:1em;cursor:pointer;word-break:keep-all}
+.nlbox__consent input{margin-top:.22em;flex:0 0 auto;width:15px;height:15px}
+.nlbox__consent b{color:#c2410c;font-weight:700}
+.nlbox__consent a{text-decoration:underline}
+.nlbox__hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.nlbox__submit{padding:.62em 1.5em;font-size:.92em;font-weight:700;border:0;border-radius:6px;
+      background:#1a4b8c;color:#fff;cursor:pointer}
+.nlbox__submit:hover{background:#15407a}
+.nlbox__submit[disabled]{background:#9aa3ad;cursor:default}
+.nlbox__msg{font-size:.85em;margin:.7em 0 0;min-height:1.2em;line-height:1.5}
+.nlbox__msg.is-ok{color:#1a7f3c}
+.nlbox__msg.is-err{color:#c2410c}
+.nlbox__pending{font-size:.88em;color:#5b6470;margin:0}
+@media (max-width:600px){ .nlbox{padding:1.2em} .nlbox__row{gap:.6em} }
 </style>
 <!-- end custom head snippets -->
