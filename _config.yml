@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 #   endpoint 를 비워두면 폼 대신 '곧 열립니다' 안내가 나온다.
 #   배포 URL 은 https://script.google.com/macros/s/.../exec 형태.
 newsletter:
-  endpoint : ""
+  endpoint : "https://script.google.com/macros/s/AKfycbz5mzZMeRFqSRbEY1kKHYMlHafT6z0NUlbtalpc1zJZyw4XJPRbnIp2h2MVUNwGe8JAhA/exec"
   title    : "현장에서 나온 AX 설계 노트"
   desc     : "새 글이 올라오면 메일로 보내드립니다. 언제든 수신을 중단하실 수 있고, 개인정보는 3년 후 파기합니다."
 
