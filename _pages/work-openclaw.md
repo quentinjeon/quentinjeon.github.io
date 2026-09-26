@@ -8,7 +8,7 @@ toc_sticky: true
 description: "OpenClaw 프로젝트 — 에이전트가 외부 도구를 안전하게 호출하도록 만든 구조 기록."
 ---
 
-[![OpenClaw 대시보드](/assets/images/cards/openclaw.jpg)](/assets/images/cards/openclaw.jpg)
+[![OpenClaw 대시보드](/assets/images/cards/openclaw.jpg){: loading="lazy" decoding="async" width="800" height="450"}](/assets/images/cards/openclaw.jpg)
 
 `Python + Next.js` · [저장소](https://github.com/quentinjeon/openclaw-trade)
 

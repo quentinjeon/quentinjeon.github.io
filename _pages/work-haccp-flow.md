@@ -15,7 +15,7 @@ header:
 
 `Python` · [github.com/quentinjeon/haccp](https://github.com/quentinjeon/haccp)
 
-[![생산일지 완성센터](/assets/images/work/haccp-01-main.jpg)](/assets/images/work/haccp-01-main.jpg)
+[![생산일지 완성센터](/assets/images/work/haccp-01-main.jpg){: loading="lazy" decoding="async" width="1600" height="1333"}](/assets/images/work/haccp-01-main.jpg)
 *생산일지 완성센터 — 단계별 잔여 항목과 필수 필드 충족률을 상시 노출. 클릭하면 원본 크기.*
 
 ## 풀려고 한 문제
@@ -41,21 +41,21 @@ HACCP 인증 사업장은 **생산 1회마다 11종의 서류**를 만들어야 
 
 ## CCP 판정 — 계산이 근거를 남긴다
 
-[![CCP 자동 판정](/assets/images/work/haccp-02-ccp.jpg)](/assets/images/work/haccp-02-ccp.jpg)
+[![CCP 자동 판정](/assets/images/work/haccp-02-ccp.jpg){: loading="lazy" decoding="async" width="1600" height="1070"}](/assets/images/work/haccp-02-ccp.jpg)
 *CCP1B 가열공정 — 한계기준 대비 계산 결과가 판정 근거로 함께 남는다.*
 
 CCP(중요관리점) 판정을 담당자의 경험에 맡기지 않습니다. 한계기준과 측정값을 비교한 **계산 결과**가 판정이고, 그 계산식이 화면에 남습니다. 감사에서 "왜 적합으로 판정했나"에 답할 수 있는 형태입니다.
 
 ## 마스터 제약 — 틀린 기록이 생성되지 않게
 
-[![원재료 선택 제약](/assets/images/work/haccp-03-master.jpg)](/assets/images/work/haccp-03-master.jpg)
+[![원재료 선택 제약](/assets/images/work/haccp-03-master.jpg){: loading="lazy" decoding="async" width="1600" height="1070"}](/assets/images/work/haccp-03-master.jpg)
 *원재료·공급업체는 마스터에서만 선택. 자유 입력을 막아 오기입 자체를 차단.*
 
 사후 검증보다 **애초에 틀린 값이 들어올 수 없게** 만드는 쪽을 택했습니다. 사람·원재료·공정·설비는 전부 마스터 데이터에서 선택합니다. 오타로 인한 불일치를 나중에 찾아내는 비용이, 선택지를 제한하는 불편보다 훨씬 큽니다.
 
 ## 감사 이력 — 모든 값에 주체와 시각
 
-[![감사 이력](/assets/images/work/haccp-04-audit.jpg)](/assets/images/work/haccp-04-audit.jpg)
+[![감사 이력](/assets/images/work/haccp-04-audit.jpg){: loading="lazy" decoding="async" width="1554" height="1506"}](/assets/images/work/haccp-04-audit.jpg)
 *값 하나하나에 시각·주체·근거. 시스템이 파생한 값과 사람이 확정한 값을 구분한다.*
 
 `FIELD_DERIVED`(시스템이 계산해 채운 값)와 `FIELD_CONFIRMED`(사람이 확인하고 확정한 값)를 구분해 저장합니다. 이 구분이 없으면 "이 숫자는 누가 책임지는가"에 답할 수 없습니다.

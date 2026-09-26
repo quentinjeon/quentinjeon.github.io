@@ -15,7 +15,7 @@ header:
 
 `Python` · [github.com/quentinjeon/sales](https://github.com/quentinjeon/sales) (목업 데이터 · 강의용 공개본)
 
-[![월별 대시보드](/assets/images/work/margin-01-dashboard.jpg)](/assets/images/work/margin-01-dashboard.jpg)
+[![월별 대시보드](/assets/images/work/margin-01-dashboard.jpg){: loading="lazy" decoding="async" width="1600" height="1833"}](/assets/images/work/margin-01-dashboard.jpg)
 *월별 대시보드 — 상단에 적자 딜 경고 밴드. 클릭하면 원본 크기.*
 
 ## 풀려고 한 문제
@@ -55,14 +55,14 @@ header:
 
 ## 제품 × 채널 수익성
 
-[![제품·딜별 수익률](/assets/images/work/margin-02-heatmap.jpg)](/assets/images/work/margin-02-heatmap.jpg)
+[![제품·딜별 수익률](/assets/images/work/margin-02-heatmap.jpg){: loading="lazy" decoding="async" width="1400" height="3850"}](/assets/images/work/margin-02-heatmap.jpg)
 *제품 × 채널 교차 수익률 — 같은 제품도 채널에 따라 마진이 뒤집힌다.*
 
 같은 제품이라도 채널 수수료가 6.8%인 곳과 24.0%인 곳에서 결과가 완전히 달라집니다. 제품 단위 손익만 보면 "이 제품은 남는다"인데, 채널을 교차하면 특정 조합만 적자인 경우가 드러납니다. 이 표가 있으면 **어떤 채널에서 뺄지**를 감이 아니라 숫자로 정합니다.
 
 ## 미매핑을 조용히 버리지 않는다
 
-[![상품명 매핑](/assets/images/work/margin-03-mapping.jpg)](/assets/images/work/margin-03-mapping.jpg)
+[![상품명 매핑](/assets/images/work/margin-03-mapping.jpg){: loading="lazy" decoding="async" width="1400" height="3082"}](/assets/images/work/margin-03-mapping.jpg)
 *상품명 매핑 큐 — 매칭 실패 건을 건수와 금액으로 드러낸다.*
 
 채널마다 상품명이 다릅니다. 자동 매핑률은 99.9%지만, **나머지 0.1%를 어떻게 다루느냐가 이 시스템의 신뢰도를 결정합니다.**
@@ -71,7 +71,7 @@ header:
 
 ## 주별 추이 — 매출 최고 주가 마진 최저 주였다
 
-[![주별 대시보드](/assets/images/work/margin-04-weekly.jpg)](/assets/images/work/margin-04-weekly.jpg)
+[![주별 대시보드](/assets/images/work/margin-04-weekly.jpg){: loading="lazy" decoding="async" width="1600" height="1833"}](/assets/images/work/margin-04-weekly.jpg)
 *주별 추이 — 매출 피크와 마진 저점이 겹친다.*
 
 행사를 하면 매출은 오릅니다. 그런데 마진율은 같이 내려갑니다. 특가 티어는 전체 매출의 55.5%를 차지하면서 마진율은 2.08%, 일반행사는 14.72%였습니다. **13%p 격차**입니다.

@@ -87,7 +87,7 @@ toc_label: "목차"
 
 여기서부터는 자랑이 아니라 고백입니다.
 
-[![TeleNews 메인 피드 — 지금 뜨는 이슈 클러스터](/assets/images/work/telenews-01-feed.jpg)](/assets/images/work/telenews-01-feed.jpg)
+[![TeleNews 메인 피드 — 지금 뜨는 이슈 클러스터](/assets/images/work/telenews-01-feed.jpg){: loading="lazy" decoding="async" width="1600" height="1555"}](/assets/images/work/telenews-01-feed.jpg)
 *메인 피드. 클러스터링은 작동하지만 분류는 눈에 띄게 틀립니다 — 클릭하면 원본 크기.*
 
 **클러스터링은 됩니다.** 첫 카드가 `17건 · 9개 소스`입니다. 연합뉴스·한국경제·매일경제가 같은
@@ -118,7 +118,7 @@ toc_label: "목차"
 
 트렌딩 랭킹은 처음에 코드 상수였습니다. 이걸 관리자 화면으로 빼냈습니다.
 
-[![트렌딩 랭킹 튜닝 — 가중치 슬라이더와 실시간 미리보기](/assets/images/work/telenews-02-ranking.jpg)](/assets/images/work/telenews-02-ranking.jpg)
+[![트렌딩 랭킹 튜닝 — 가중치 슬라이더와 실시간 미리보기](/assets/images/work/telenews-02-ranking.jpg){: loading="lazy" decoding="async" width="1600" height="1000"}](/assets/images/work/telenews-02-ranking.jpg)
 *가중치를 움직이면 우측 top-12가 즉시 재정렬됩니다 — 클릭하면 원본 크기.*
 
 멤버 수 `0.300`, 가속도 `0.250`, 종목 임팩트 `0.200`, 조회수 `0.150`, 신뢰 매체 `0.100`,
@@ -154,7 +154,7 @@ toc_label: "목차"
 
 ### 다만 이건 아직 만들다 만 상태입니다
 
-[![의사결정 이력 — 빈 상태](/assets/images/work/telenews-03-decisions.jpg)](/assets/images/work/telenews-03-decisions.jpg)
+[![의사결정 이력 — 빈 상태](/assets/images/work/telenews-03-decisions.jpg){: loading="lazy" decoding="async" width="1600" height="1000"}](/assets/images/work/telenews-03-decisions.jpg)
 *화면은 있고 기록은 없습니다. 사이드바에 `SOON`과 `STAGE 4 정리 예정`이 그대로 보입니다.*
 
 화면 골격과 자동 평가 스케줄은 있지만 실제로 쌓인 기록이 없습니다.
