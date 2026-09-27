@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "폴더를 에이전트로 만들 수 있을까? ② — 폴더형 AI 에이전트를 실제 시스템으로"
-seo_title: "폴더형 AI 에이전트를 실제 시스템으로 (②)"
+seo_title: "멀티 에이전트 시스템 구축 ② — 실제 시스템으로"
 excerpt: "폴더 자체가 에이전트인 게 아니다. 정의·실행·Tool·Artifact를 분리하고 Policy·Approval·Event Log를 얹으면 추적 가능하고 재실행 가능한 Multi-Agent Workspace가 된다."
+description: "멀티 에이전트 시스템 구축 2편. 정의·실행·Tool·Artifact를 분리하고 Policy·Approval·Event Log를 얹어 추적 가능한 AI 에이전트를 만듭니다."
 series: vibe-agent-workspace
 part: 2
 categories:

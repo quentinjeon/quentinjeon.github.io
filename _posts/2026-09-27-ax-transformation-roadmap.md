@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "AX 전환 로드맵 — 4단계 그림 말고, 실패 비용으로 나누는 5개 관문"
-seo_title: "AX 전환 로드맵 — 실패 비용으로 나누는 5단계"
+seo_title: "AX 전환 로드맵과 단계 — 실패 비용 기준 5관문"
 excerpt: "진단·전략·파일럿·확산이라는 4단계 로드맵은 어느 회사에나 맞지만 어느 회사도 그대로 못 쓴다. 건설·에너지·커머스·식품에서 실제로 만들며 확인한, 통과 기준이 있는 로드맵."
-description: "AX 전환 로드맵을 추상적 4단계가 아니라 실패 비용 기준 5개 관문으로 정리했습니다. 건설·에너지·커머스 도메인의 실제 구축 사례와 각 단계의 통과 기준, 멈춰야 할 지점까지."
+description: "AX 전환 로드맵을 추상적 4단계가 아니라 실패 비용 기준 5개 관문으로 정리했습니다. 기업 AI 도입 단계별 통과 기준과 건설·에너지·커머스 실제 사례."
 categories:
   - ax
   - foundation
@@ -78,7 +78,7 @@ header:
 > **통과 기준** — 한 업무를 골라 입력·출력·정답 기준을 한 장으로 적을 수 있다.
 {: .notice--info}
 
-관련 글 · [에너지업계 AX, 챗봇보다 먼저 설계해야 하는 것](/ax/energy/energy-ax-integrated-operations/) · [데이터 아키텍처 개념정리 — Lake·Warehouse·Mart에서 Agent Action까지](/ax/foundation/data-architecture-for-agents/)
+관련 글 · [에너지 AX 전환 사례 — 설비·안전·기한을 하나로](/ax/energy/energy-ax-integrated-operations/) · [데이터 아키텍처 정리 — Lake·Warehouse·Mart와 RAG 구축](/ax/foundation/data-architecture-for-agents/)
 
 ---
 
@@ -96,7 +96,7 @@ header:
 > **통과 기준** — 답변에 출처 문서와 페이지가 붙는다. 사용자가 원문을 열어 확인할 수 있다.
 {: .notice--info}
 
-관련 글 · [건설사 AX는 챗봇 구축이 아니다 — 5가지 AI Agent 사례](/ax/construction/construction-ax-5-ai-agents/) · [문서와 대화하는 챗봇에서, 일을 끝내는 에이전트까지](/ax/foundation/folder-agent-5-levels/)
+관련 글 · [건설 AI 적용 사례 5가지 — 지식허브부터 입찰 리스크까지](/ax/construction/construction-ax-5-ai-agents/) · [AI 에이전트 종류 5단계 — 사내 챗봇부터 자율 실행까지](/ax/foundation/folder-agent-5-levels/)
 
 ---
 
@@ -112,7 +112,7 @@ header:
 > **통과 기준** — 판단 결과를 뒤집을 때 무엇을 보면 되는지가 시스템 안에 있다.
 {: .notice--info}
 
-관련 글 · [네이버 광고 딥다이브 — 광고상품이 아니라 노출표면부터 본다](/ax/commerce/naver-ads-deep-dive/)
+관련 글 · [네이버 광고 상품과 노출 표면 — 11개 Surface Cluster](/ax/commerce/naver-ads-deep-dive/)
 
 ---
 
@@ -132,7 +132,7 @@ header:
 > **통과 기준** — 실행 하나를 골라 `run_id` 로 전체 과정을 복원할 수 있다. 누가 무슨 권한으로 무엇을 했는지 로그만 읽어 답할 수 있다.
 {: .notice--info}
 
-관련 글 · [에이전트는 어느 수준에서 행동해야 하는가 (1/4)](/labs/agent-level-problem-and-foundations/) · [Orchestrator와 Agent Runner를 실제 코드로](/ax/foundation/vibe-agent-workspace-part3/) · [폴더형 AI 에이전트를 실제 시스템으로](/ax/foundation/vibe-agent-workspace-part2/)
+관련 글 · [에이전트는 어느 수준에서 행동해야 하는가 (1/4)](/labs/agent-level-problem-and-foundations/) · [멀티 에이전트 오케스트레이션 구현 — Orchestrator와 Runner](/ax/foundation/vibe-agent-workspace-part3/) · [멀티 에이전트 시스템 구축 — Policy·Approval·Event Log](/ax/foundation/vibe-agent-workspace-part2/)
 
 ---
 
@@ -150,7 +150,7 @@ AI는 만드는 장벽을 낮췄지만 운영 책임까지 없애지는 않았�
 > **통과 기준** — 만든 사람이 자리를 비워도 다른 사람이 규칙을 읽고 고칠 수 있다.
 {: .notice--info}
 
-관련 글 · [AI 에이전트 시대, 산업 전문가와 IT 전문가는 어떻게 역할을 나눠야 하는가](/ax/foundation/role-split-domain-and-it/) · [프롬프트를 넘어 폴더로 AI 조직을 만든다 — Vibe Agent Workspace](/ax/foundation/vibe-agent-workspace/) · [PMP 10대 지식영역 완전정리](/ax/foundation/pmp-10-knowledge-areas/)
+관련 글 · [AI 시대 역할 분담 — 산업 전문가와 IT 전문가](/ax/foundation/role-split-domain-and-it/) · [AI 에이전트 구축 — 폴더 기반 Vibe Agent Workspace](/ax/foundation/vibe-agent-workspace/) · [PMP 10대 지식영역 — 프로젝트 관리 10개 관점](/ax/foundation/pmp-10-knowledge-areas/)
 
 ---
 

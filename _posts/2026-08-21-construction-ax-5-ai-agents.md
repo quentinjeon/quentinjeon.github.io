@@ -1,7 +1,9 @@
 ---
 layout: single
 title: "건설사 AX는 챗봇 구축이 아니다"
+seo_title: "건설 AI 적용 사례 5가지 — 챗봇을 넘어 실행까지"
 excerpt: "실제 업무를 바꾸는 5가지 AI Agent 사례 — Find, Compare, Decide, Generate, Connect, Act까지 연결되어야 비로소 AX가 됩니다."
+description: "건설 AI 적용 사례를 지식허브·법무·시공기준·고객여정·입찰 리스크 5개 에이전트로 정리했습니다. 찾기에서 실행까지 이어져야 건설 AX가 됩니다."
 toc: true
 toc_sticky: true
 header:

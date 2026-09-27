@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "NLP 핵심 개념 시각 학습 가이드 — 토큰화부터 RAG 평가까지 10개 주제"
-seo_title: "NLP 핵심 개념 정리 — 토큰화부터 RAG 평가까지"
+seo_title: "NLP 핵심 개념 정리 — 토큰화·Attention·RAG"
 excerpt: "모델 사용법이 아니라 문제 정의·언어 표현·학습 목적·평가 설계를 연결하는 정리. 10개 주제를 그림 한 장과 개념·한국어 예제·실습·통과 기준으로 묶고, 24주 학습 로드맵까지 붙였다."
-description: "NLP 전체 지도, 코퍼스와 토큰화, 통계적 NLP, 언어 구조, 임베딩, Neural NLP, Attention, Transformer, BERT·GPT, RAG와 평가까지 10개 주제를 그림과 한국어 예제로 정리한 학습 가이드."
+description: "NLP 개념을 10개 주제로 정리했습니다. 토큰화, 임베딩, Attention, Transformer, BERT·GPT, RAG 평가까지 그림과 한국어 예제로."
 part: 0
 categories:
   - labs

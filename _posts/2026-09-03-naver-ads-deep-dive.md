@@ -1,7 +1,9 @@
 ---
 layout: single
 title: "네이버 광고 딥다이브 — 광고상품이 아니라 노출표면부터 본다"
+seo_title: "네이버 광고 상품 정리 — 11개 노출 표면 분해"
 excerpt: "파워링크·쇼핑검색·DA는 광고상품이고, 통합검색 상단·홈피드·카페 목록·지도 마커는 노출표면이다. 네이버 광고 인벤토리를 11개 Surface Cluster로 분해하고, AI가 무엇을 결정해야 하는지까지 정리했다."
+description: "네이버 광고 상품과 노출 표면을 구분해 11개 Surface Cluster로 분해했습니다. 파워링크·쇼핑검색·DA와 통합검색·홈피드·카페·지도의 차이."
 categories:
   - ax
   - commerce

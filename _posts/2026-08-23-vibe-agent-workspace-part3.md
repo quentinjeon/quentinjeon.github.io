@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "폴더를 에이전트로 만들 수 있을까? ③ — Orchestrator와 Agent Runner를 실제 코드로"
-seo_title: "Orchestrator와 Agent Runner 코드 구현 ③"
+seo_title: "멀티 에이전트 오케스트레이션 구현 — 312줄"
 excerpt: "설계를 312줄로 옮기고 실제로 돌렸다. 상태 전이표, 권한 교집합, 리비전 루프, 그리고 run_id 하나로 실행 전체를 복원하는 이벤트 로그. 이 글의 로그는 전부 실행 결과 그대로다."
+description: "멀티 에이전트 오케스트레이션을 실제 코드로 구현했습니다. 상태 전이표, 권한 교집합, 리비전 루프, run_id 기반 이벤트 로그까지 312줄."
 series: vibe-agent-workspace
 part: 3
 categories:

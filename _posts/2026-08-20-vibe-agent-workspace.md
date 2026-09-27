@@ -1,10 +1,11 @@
 ---
 layout: single
 title: "프롬프트를 넘어 폴더로 AI 조직을 만든다: 내가 정의한 'Vibe Agent Workspace'"
-seo_title: "Vibe Agent Workspace — 폴더로 AI 조직 만들기"
+seo_title: "멀티 에이전트 구축 — 폴더로 만드는 AI 에이전트"
 series: vibe-agent-workspace
 part: 1
 excerpt: "폴더는 Agent가 아니라 Agent Workspace다. 자연어와 폴더로 AI 작업자와 AI 조직을 설계하는 파일시스템 기반 멀티에이전트 구조."
+description: "AI 에이전트 구축을 폴더 기반 워크스페이스로 설계하는 방법. 멀티 에이전트를 자연어와 파일시스템으로 정의하는 구조를 정리했습니다."
 categories:
   - ax
   - foundation
