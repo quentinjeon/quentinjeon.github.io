@@ -36,7 +36,7 @@ RAG를 처음 만들 때 참고할 자료는 이미 충분합니다.
 > 건설 도메인의 통합 지식허브와 GraphRAG 파이프라인을 만들며 반복해 부딪힌 것들입니다.
 {: .notice--primary}
 
-[![RAG 구축 절차와 실패 지점 — 파이프라인은 6단계, 실패는 4곳에서 난다](/assets/images/rag-build-01-overview.png)](/assets/images/rag-build-01-overview.png)
+[![RAG 구축 절차와 실패 지점 — 파이프라인은 6단계, 실패는 4곳에서 난다](/assets/images/rag-build-01-overview.png){: loading="lazy" decoding="async" width="1600" height="900"}](/assets/images/rag-build-01-overview.png)
 *글 전체 요약 — 6단계와 네 개의 실패 지점 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 ---
@@ -58,14 +58,14 @@ RAG를 처음 만들 때 참고할 자료는 이미 충분합니다.
 
 > RAG는 **모델이 모르는 것을 검색으로 채워 넣는 구조**다. 학습으로 지식을 넣는 대신, 답할 때마다 근거를 찾아온다.
 
-[![RAG 구축 절차 6단계 — 문서에서 근거 있는 답변까지](/assets/images/rag-build-02-pipeline.png)](/assets/images/rag-build-02-pipeline.png)
+[![RAG 구축 절차 6단계 — 문서에서 근거 있는 답변까지](/assets/images/rag-build-02-pipeline.png){: loading="lazy" decoding="async" width="1600" height="900"}](/assets/images/rag-build-02-pipeline.png)
 *표준 파이프라인 6단계 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 이 6단계는 어렵지 않습니다. 어려운 건 지금부터입니다.
 
 ---
 
-[![기업 RAG가 실패하는 4가지 지점 — 권한·최신성·근거·평가](/assets/images/rag-build-03-failures.png)](/assets/images/rag-build-03-failures.png)
+[![기업 RAG가 실패하는 4가지 지점 — 권한·최신성·근거·평가](/assets/images/rag-build-03-failures.png){: loading="lazy" decoding="async" width="1600" height="900"}](/assets/images/rag-build-03-failures.png)
 *기업 RAG가 실패하는 네 지점 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 ## 실패 1. 권한 — "이 사람이 이 문서를 봐도 되는가"
@@ -197,7 +197,7 @@ AI가 맞는 말을 하는 것보다 **왜 이런 답변을 했는지 확인할 
 
 정리하면 순서는 이렇게 됩니다. **기술 난이도 순이 아니라 되돌릴 수 없는 순입니다.**
 
-[![RAG 구축 우선순위 — 되돌릴 수 없는 순서로 구축한다](/assets/images/rag-build-04-priority.png)](/assets/images/rag-build-04-priority.png)
+[![RAG 구축 우선순위 — 되돌릴 수 없는 순서로 구축한다](/assets/images/rag-build-04-priority.png){: loading="lazy" decoding="async" width="1600" height="900"}](/assets/images/rag-build-04-priority.png)
 *구축 우선순위 — 되돌릴 수 없는 순서로 — 클릭하면 원본 크기로 볼 수 있습니다.*
 
 | 순서 | 할 일 | 이유 |
