@@ -9,10 +9,8 @@ categories:
   - labs
 tags:
   - Agent 학습 로드맵
-  - Admissibility
-  - Utility
-  - State Machine
-  - Tool Contract
+  - AI 거버넌스
+  - 에이전트 아키텍처
 toc: true
 toc_sticky: true
 header:

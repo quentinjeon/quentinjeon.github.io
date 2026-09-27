@@ -9,15 +9,8 @@ categories:
   - foundation
 tags:
   - 데이터 아키텍처
-  - Data Warehouse
-  - Data Lake
-  - Data Mart
-  - ETL
-  - ELT
-  - Star Schema
-  - Agent State
-  - Action Space
-  - Enterprise AX
+  - 에이전트 아키텍처
+  - AX 전환
 toc: true
 toc_sticky: true
 header:

@@ -8,11 +8,8 @@ categories:
   - labs
 tags:
   - Agent 학습 로드맵
-  - Typed Handoff
-  - MVP
-  - Benchmark
-  - Evaluation
-  - Experiment Design
+  - 에이전트 아키텍처
+  - 평가 설계
 toc: true
 toc_sticky: true
 header:

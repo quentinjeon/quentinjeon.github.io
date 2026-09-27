@@ -9,10 +9,9 @@ categories:
   - labs
 tags:
   - Agent 학습 로드맵
-  - LLM Agent
-  - Agent Architecture
-  - Tool Use
-  - Policy Preservation
+  - AI 에이전트
+  - 에이전트 아키텍처
+  - AI 거버넌스
 toc: true
 toc_sticky: true
 header:

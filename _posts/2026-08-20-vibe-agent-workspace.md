@@ -12,11 +12,10 @@ categories:
 redirect_from:
   - /ai/vibe-agent-workspace/
 tags:
-  - Agent
-  - Multi-Agent
-  - Vibe Coding
-  - Context Engineering
-  - Workspace Engineering
+  - AI 에이전트
+  - 멀티 에이전트
+  - 바이브 코딩
+  - 에이전트 아키텍처
 toc: true
 toc_sticky: true
 header:

@@ -8,16 +8,9 @@ categories:
   - ax
   - foundation
 tags:
-  - PMP
-  - PMBOK
-  - 프로젝트관리
-  - 지식영역
-  - WBS
-  - 리스크관리
-  - 이해관계자관리
-  - Enterprise AX
-  - PoC
-  - RACI
+  - 프로젝트 관리
+  - AX 전환
+  - 기업 AI 도입
 toc: true
 toc_sticky: true
 header:

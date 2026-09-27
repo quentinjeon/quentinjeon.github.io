@@ -9,14 +9,6 @@ categories:
   - commerce
 tags:
   - 네이버 광고
-  - 퍼포먼스 마케팅
-  - Surface Taxonomy
-  - 파워링크
-  - 쇼핑검색광고
-  - ADVoost
-  - 성과형 DA
-  - 광고 최적화
-  - 리테일 미디어
 toc: true
 toc_sticky: true
 header:

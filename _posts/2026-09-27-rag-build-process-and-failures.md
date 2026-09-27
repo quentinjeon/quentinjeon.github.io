@@ -8,12 +8,8 @@ categories:
   - ax
   - foundation
 tags:
-  - RAG 구축
   - RAG
   - 기업 AI 도입
-  - 사내 AI 챗봇
-  - 벡터 검색
-  - GraphRAG
 toc: true
 toc_sticky: true
 header:

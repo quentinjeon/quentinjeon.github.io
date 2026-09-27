@@ -8,14 +8,11 @@ categories:
   - ax
   - foundation
 tags:
-  - AI Agent
-  - Agent Architecture
+  - AI 에이전트
+  - 에이전트 아키텍처
   - RAG
-  - Multi-Agent
-  - Orchestration
+  - 멀티 에이전트
   - Human-in-the-loop
-  - Tool Permission
-  - Vibe Agent Workspace
 toc: true
 toc_sticky: true
 header:

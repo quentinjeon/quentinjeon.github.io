@@ -10,12 +10,10 @@ categories:
   - ax
   - foundation
 tags:
-  - Agent
-  - Multi-Agent
-  - Agent Workspace
-  - Tool Permission
-  - Orchestrator
-  - Audit Trail
+  - AI 에이전트
+  - 멀티 에이전트
+  - 에이전트 아키텍처
+  - AI 거버넌스
 toc: true
 toc_sticky: true
 header:

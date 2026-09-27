@@ -9,11 +9,6 @@ categories:
   - labs
 tags:
   - NLP
-  - 학습 가이드
-  - Transformer
-  - Attention
-  - 임베딩
-  - 토큰화
   - RAG
   - 평가 설계
 toc: true

@@ -9,11 +9,8 @@ categories:
   - labs
 tags:
   - Agent 학습 로드맵
-  - SMDP
-  - Options
   - RAG
-  - ReAct
-  - Agent Governance
+  - AI 거버넌스
 toc: true
 toc_sticky: true
 header:

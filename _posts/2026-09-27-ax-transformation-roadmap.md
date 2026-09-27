@@ -9,11 +9,9 @@ categories:
   - foundation
 tags:
   - AX 전환
-  - AX 로드맵
   - 기업 AI 도입
   - AI 에이전트
   - 업무 자동화
-  - DX AX
 toc: true
 toc_sticky: true
 header:

@@ -9,14 +9,10 @@ categories:
   - foundation
 tags:
   - AI 에이전트
-  - 산업 AX
+  - AX 전환
   - 바이브 코딩
   - 역할 분담
   - AI 거버넌스
-  - 엔터프라이즈 AI
-  - Human-in-the-loop
-  - PoC
-  - 운영 책임
 toc: true
 toc_sticky: true
 header:

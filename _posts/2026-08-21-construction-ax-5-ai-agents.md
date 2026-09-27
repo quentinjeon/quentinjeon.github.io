@@ -11,6 +11,10 @@ header:
 categories:
   - ax
   - construction
+tags:
+  - 건설 AX
+  - AI 에이전트
+  - 기업 AI 도입
 redirect_from:
   - /ai/construction-ax-5-ai-agents/
 tags:

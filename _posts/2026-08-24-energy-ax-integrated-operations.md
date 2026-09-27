@@ -9,13 +9,7 @@ categories:
   - energy
 tags:
   - 에너지 AX
-  - 통합 운영 플랫폼
-  - 설비자산관리
-  - 안전작업허가
-  - 열수급 운영
-  - 기한관리
-  - 사내 RAG
-  - 근거 기반 답변
+  - RAG
   - AI 거버넌스
   - Human-in-the-loop
 toc: true
