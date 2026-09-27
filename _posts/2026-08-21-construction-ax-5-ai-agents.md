@@ -14,25 +14,8 @@ categories:
 tags:
   - 건설 AX
   - AI 에이전트
+  - RAG
   - 기업 AI 도입
-redirect_from:
-  - /ai/construction-ax-5-ai-agents/
-tags:
-  - 건설사 AX
-  - 건설업 AX
-  - 건설 AI
-  - 건설사 AI 에이전트
-  - 건설 RAG
-  - 기업 지식검색 AI
-  - 건설사 지식관리
-  - 사내 지식 AI
-  - 하자소송 AI
-  - 법무 AI
-  - 시공지식 AI
-  - 건설 입찰 AI
-  - 공모지침서 AI 분석
-  - 분양 AI 챗봇
-  - 하자접수 AI
 ---
 
 최근 건설사들과 AI 도입을 논의하면서 반복해서 듣게 되는 질문이 있습니다.
