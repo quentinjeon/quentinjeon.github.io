@@ -30,3 +30,11 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# 공개 저장소에 올리면 안 되는 개인·고객 자료 (로컬 보관)
+docs/00-전략-판단.md
+docs/01-확정된-사실.md
+docs/포트폴리오-컨텐츠-정의.md
+docs/**/에너지업계_AX_블로그_이미지포함_패키지.zip
+docs/**/0[0-7]_*.png
+.DS_Store
