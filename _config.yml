@@ -130,7 +130,7 @@ analytics:
 author:
   name             : "전용섭 Yongsub Jeon"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "창업 7년과 Enterprise AI 실무를 연결합니다. 현업 Pain Point를 AX 과제로 정의하고 PoC → MVP → 운영까지 만듭니다."
+  bio              : "업무를 AI가 실행할 수 있는 단위로 쪼개고, 현장에 남는 시스템까지 만듭니다. 제조 현장 7년 운영 → Enterprise AX."
   location         : "Seoul, Korea"
   email            :
   email_text       : "zerotoanother@gmail.com"  # 링크 없이 텍스트로만 표시
