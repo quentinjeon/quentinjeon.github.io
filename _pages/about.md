@@ -105,13 +105,13 @@ AI/DX 워크플로우를 연구하고 있습니다.
 
 ## 기술 스택
 
-### 직접 만들며 쓴 것
+### 프로젝트에 쓰인 스택
 
-아래는 [프로젝트](/work/)의 케이스들에서 실제로 돌린 스택입니다.
+[프로젝트](/work/)의 케이스들이 실제로 돌아가는 구성입니다.
+모든 줄을 제가 직접 작성하지는 않습니다. 제 작업 범위는 아래 **설계하고 검수하는 것** 쪽입니다.
 
 | 구분 | 스택 |
 | --- | --- |
-| **언어** | Python · Kotlin · TypeScript |
 | **백엔드** | FastAPI · Spring · WebSocket · Redis |
 | **프런트** | Next.js · React |
 | **데이터** | MySQL · MongoDB · SQLite |
@@ -135,7 +135,7 @@ AI/DX 워크플로우를 연구하고 있습니다.
 
 ### 제품 · 협업
 
-PRD · Jira · Confluence · Slack · Lean Canvas · HTML/CSS/JS · 검수 기준서 · 운영가이드
+PRD · Jira · Confluence · Slack · Lean Canvas · 검수 기준서 · 운영가이드
 
 ## 수상
 
