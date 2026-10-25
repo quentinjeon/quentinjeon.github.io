@@ -1,6 +1,7 @@
 ---
 permalink: /ax/commerce/
 title: "AX Insight · 커머스·광고"
+breadcrumb_label: "커머스·광고"
 layout: single
 author_profile: true
 classes: wide

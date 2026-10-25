@@ -1,6 +1,7 @@
 ---
 permalink: /ax/
 title: "AX Insight"
+breadcrumb_label: "AX Insight"
 excerpt: "도메인별로 정리한 AX 설계 노트. 챗봇을 만드는 이야기가 아니라, 업무 흐름을 Find에서 Act까지 잇는 구조에 대한 글입니다."
 layout: single
 author_profile: true

@@ -1,6 +1,7 @@
 ---
 permalink: /ax/energy/
 title: "AX Insight · 에너지"
+breadcrumb_label: "에너지"
 layout: single
 author_profile: true
 classes: wide

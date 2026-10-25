@@ -1,6 +1,7 @@
 ---
 permalink: /labs/
 title: "Scholar Labs"
+breadcrumb_label: "Scholar Labs"
 excerpt: "논문을 읽고 시스템으로 옮기는 기록. 직접 만든 것과 외부 저작물을 섞지 않습니다."
 layout: single
 author_profile: true

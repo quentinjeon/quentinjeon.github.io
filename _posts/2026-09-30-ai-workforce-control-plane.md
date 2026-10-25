@@ -1,9 +1,9 @@
 ---
 layout: single
 title: "AI 조직도와 사원증 레이어, 비즈니스가 될까?"
-seo_title: "AI 사원증과 AI Workforce Control Plane — 기업 AI 권한 통제"
+seo_title: "AI 사원증과 기업 AI 권한 통제 구조"
 excerpt: "기업 AI의 다음 인프라는 '답변하는 AI'가 아니라 '권한을 가지고 일하는 AI'를 통제하는 시스템일 수 있습니다. AI 사원증은 좋은 메시지지만, 돈이 되는 것은 Identity가 아니라 Authority와 Action의 통제입니다."
-description: "AI Agent가 ERP·MES·CRM에서 실제 업무를 수행할 때 필요한 권한 구조. Agent Registry, Delegated Authority, Capability Registry, Policy Engine, Action Gateway로 이어지는 AI Workforce Control Plane과 그 수익모델·GTM·해자를 정리합니다."
+description: "AI Agent가 ERP·MES·CRM에서 실제 업무를 수행할 때 필요한 권한 구조. Agent Registry, Delegated Authority, Policy Engine, Action Gateway로 이어지는 AI Workforce Control Plane을 정리합니다."
 categories:
   - ax
   - foundation

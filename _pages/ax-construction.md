@@ -1,6 +1,7 @@
 ---
 permalink: /ax/construction/
 title: "AX Insight · 건설"
+breadcrumb_label: "건설"
 layout: single
 author_profile: true
 classes: wide

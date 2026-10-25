@@ -1,6 +1,7 @@
 ---
 permalink: /work/
 title: "프로젝트"
+breadcrumb_label: "프로젝트"
 excerpt: "식품 제조 · 커머스 · 금융·투자 · 공공 도메인에서 만든 운영 시스템과 AI 에이전트."
 layout: single
 author_profile: true
