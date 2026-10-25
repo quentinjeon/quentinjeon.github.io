@@ -11,6 +11,7 @@ description: "도메인을 가리지 않는 AX 공통 구조. Agent Workspace, �
 
 {% assign d = "" %}{% for x in site.data.domains.ax %}{% if x.slug == page.domain %}{% assign d = x %}{% endif %}{% endfor %}
 <p style="color:#6b7280;font-size:.95em">{{ d.tagline }}</p>
+{% if d.intro %}<p style="line-height:1.75;word-break:keep-all;margin-bottom:2em">{{ d.intro }}</p>{% endif %}
 
 {% assign posts = site.categories[page.domain] %}
 {% if posts and posts.size > 0 %}{% for post in posts %}{% include post-row.html post=post %}{% endfor %}
