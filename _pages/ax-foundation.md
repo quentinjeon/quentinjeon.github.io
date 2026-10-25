@@ -17,4 +17,15 @@ description: "도메인을 가리지 않는 AX 공통 구조. Agent Workspace, �
 {% if posts and posts.size > 0 %}{% for post in posts %}{% include post-row.html post=post %}{% endfor %}
 {% else %}<p>아직 이 도메인에 발행한 글이 없습니다.</p>{% endif %}
 
+
+{%- assign dprojects = site.data.projects | where: "domain", page.domain -%}
+{%- if dprojects.size > 0 %}
+<h2 style="margin-top:2.4em">이 도메인의 프로젝트</h2>
+<ul style="line-height:2">
+{%- for pj in dprojects %}
+  <li><a href="{{ pj.url }}"><strong>{{ pj.title }}</strong></a> — {{ pj.subtitle }}</li>
+{%- endfor %}
+</ul>
+{%- endif %}
+
 <p style="margin-top:2em"><a href="/ax/" class="btn btn--inverse">← AX Insight 전체 도메인</a></p>
